@@ -1,0 +1,14 @@
+{
+    "name": "mikeyarce/vip-code-reference",
+    "description": "VIP Go Code Reference Generator",
+    "homepage": "https://docs.wpvip.com/",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "prefer-stable": true,
+    "require": {
+      "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "3.0.0"
+    }
+}

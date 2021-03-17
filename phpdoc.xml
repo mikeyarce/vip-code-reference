@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor
+        configVersion="3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://www.phpdoc.org"
+        xsi:noNamespaceSchemaLocation="data/xsd/phpdoc.xsd"
+>
+    <title>VIP Go mu-plugins</title>
+    <paths>
+        <output>docs/.build</output>
+    </paths>
+    <version number="3.0.0">
+        <folder>latest</folder>
+        <api>
+            <source dsn="vip-go-mu-plugins/">
+                <path>000-vip-init.php</path>
+                <!-- <path>cron-control</path> -->
+                <path>lib/proxy/ip-forward.php</path>
+                <path>vip-cache-manager</path>
+                <path>cache/class-vary-cache.php</path>
+                <path>vip-helpers</path> 
+            </source>
+            <output>api</output>
+            <extensions>
+                <extension>php</extension>
+            </extensions>
+            <include-source>true</include-source>
+            <markers>
+            <!--1 or more repetitions:-->
+            <marker>TODO</marker>
+            <marker>FIXME</marker>
+            </markers>
+            <ignore-tags>
+                <ignore-tag>extends</ignore-tag>
+                <ignore-tag>implements</ignore-tag>
+            </ignore-tags>
+            <default-package-name>phpDocumentor</default-package-name>
+        </api>
+    </version>
+    
+</phpdocumentor>
