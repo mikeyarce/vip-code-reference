@@ -160,7 +160,7 @@ download_source() {
     fi
 
     # Unzip source code.
-    unzip -o "${project_name}.zip" -d .
+    unzip -o "v${source_version}.zip" -d .
 }
 
 run_build() {
