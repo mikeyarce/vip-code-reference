@@ -122,7 +122,7 @@ parse_args() {
 
     # Source directory & target branch.
     project_name=${github_repo##*/}
-    deploy_directory=build/api
+    deploy_directory=docs/.build
     deploy_branch=gh-pages
 
     # If no user identity is already set in the current git environment, use this:
