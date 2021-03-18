@@ -160,7 +160,10 @@ download_source() {
     fi
 
     # Unzip source code.
+    mkdir vip-go-mu-plugins
     unzip -o "v${source_version}.zip" -d .
+    mv vip-go-mu-plugins-${source_version}/* vip-go-mu-plugins
+
 }
 
 run_build() {
@@ -173,7 +176,7 @@ run_build() {
     echo
     output 2 "Generating API docs..."
     echo
-    ./vendor/bin/phpdocumentor run --template="data/templates/vip" --sourcecode --defaultpackagename=${default_package}
+    ./vendor/bin/phpdoc run --template="data/templates/vip" --sourcecode --defaultpackagename=${default_package}
     php generate-hook-docs.php
 }
 
