@@ -93,7 +93,7 @@ class HookDocsGenerator
         $url = str_replace(['_', '/'], '-', $url);
         
 
-        return '../.build/files/' . $url;
+        return '../vip-code-reference/files/' . $url;
     }
 
     /**
