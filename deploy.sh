@@ -151,7 +151,7 @@ download_source() {
     # Clone vip-go-mu-plugins
     output 2 "Download ${project_name}.zip from GitHub release ${source_version}..."
     echo
-    curl -LSO# "https://github.com/${github_repo}/releases/download/${source_version}/${project_name}.zip"
+    curl -LSO# "https://github.com/${github_repo}/archive/v${source_version}.zip"
 
     # Check if file exists.
     if [ ! -f "${project_name}.zip" ]; then
