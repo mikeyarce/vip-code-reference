@@ -154,7 +154,7 @@ download_source() {
     curl -LSO# "https://github.com/${github_repo}/archive/v${source_version}.zip"
 
     # Check if file exists.
-    if [ ! -f "${source_version}.zip" ]; then
+    if [ ! -f "v${source_version}.zip" ]; then
         output 1 "Error while download ${source_version}.zip from GitHub!"
         exit 1
     fi
