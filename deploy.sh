@@ -161,8 +161,7 @@ download_source() {
 
     # Unzip source code.
     mkdir vip-go-mu-plugins
-    unzip -o "v${source_version}.zip" -d .
-    mv vip-go-mu-plugins-${source_version}/* vip-go-mu-plugins
+    unzip -o "v${source_version}.zip" -d . && mv vip-go-mu-plugins-${source_version}/* vip-go-mu-plugins
 
 }
 
