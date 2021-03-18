@@ -173,7 +173,7 @@ run_build() {
     echo
     output 2 "Generating API docs..."
     echo
-    ./vendor/bin/phpdoc run --template="data/templates/${project_name}" --sourcecode --defaultpackagename=${default_package}
+    ./vendor/bin/phpdoc run --template="data/templates/vip" --sourcecode --defaultpackagename=${default_package}
     php generate-hook-docs.php
 }
 
