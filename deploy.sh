@@ -106,7 +106,7 @@ parse_args() {
     fi
 
     if [[ -z $github_repo ]]; then
-        github_repo="automattic/vip-go-mu-plugins"
+        github_repo="Automattic/vip-go-mu-plugins"
     fi
 
     if [[ -z $default_package ]]; then
@@ -154,8 +154,8 @@ download_source() {
     curl -LSO# "https://github.com/${github_repo}/archive/v${source_version}.zip"
 
     # Check if file exists.
-    if [ ! -f "${project_name}.zip" ]; then
-        output 1 "Error while download ${project_name}.zip from GitHub release ${source_version}!"
+    if [ ! -f "${source_version}.zip" ]; then
+        output 1 "Error while download ${source_version}.zip from GitHub!"
         exit 1
     fi
 
