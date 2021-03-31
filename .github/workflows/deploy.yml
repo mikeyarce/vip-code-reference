@@ -2,7 +2,7 @@ name: GitHub Pages deploy
 on:
   push:
     paths:
-    - 'master'
+    - 'trunk'
 jobs:
   build-and-deploy:
     name: Build and deploy
