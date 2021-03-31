@@ -14,7 +14,6 @@
         <api>
             <source dsn="vip-go-mu-plugins/">
                 <path>000-vip-init.php</path>
-                <!-- <path>cron-control</path> -->
                 <path>lib/proxy/ip-forward.php</path>
                 <path>vip-cache-manager</path>
                 <path>cache/class-vary-cache.php</path>
