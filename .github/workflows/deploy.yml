@@ -1,8 +1,5 @@
 name: GitHub Pages deploy
-on:
-  push:
-    branches:
-    - 'trunk'
+on: workflow_dispatch
 jobs:
   build-and-deploy:
     name: Build and deploy
