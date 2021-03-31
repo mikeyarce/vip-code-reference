@@ -21,6 +21,10 @@
                 <path>vip-helpers</path> 
             </source>
             <output>api</output>
+            <ignore hidden="true" symlinks="true">
+                <!--1 or more repetitions:-->
+                <path>vip-helpers/vip-deprecated.php</path>
+            </ignore>
             <extensions>
                 <extension>php</extension>
             </extensions>
