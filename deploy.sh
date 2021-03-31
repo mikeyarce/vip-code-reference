@@ -10,7 +10,6 @@ Options:
 
     -h, --help                      Show this help information.
     -v, --verbose                   Increase verbosity. Useful for debugging.
-    -s, --source-version <VERSION>  Source version to build and deploy.
     -r, --github-repo <GITHUB_REPO> GitHub repo with username,
                                          default to \"automattic/vip-go-mu-plugins\".
     -p, --default-package <NAME>     Default package name,
@@ -63,9 +62,6 @@ parse_args() {
         elif [[ $1 = "-v" || $1 = "--verbose" ]]; then
             verbose=true
             shift
-        elif [[ $1 = "-s" || $1 = "--source-version" ]]; then
-            source_version=$2
-            shift 2
         elif [[ $1 = "-r" || $1 = "--github-repo" ]]; then
             github_repo=$2
             shift 2
@@ -100,13 +96,8 @@ parse_args() {
         exit 1
     fi
 
-    if [[ -z $source_version ]]; then
-        output 1 "Source version is missing." >&2
-        exit 1
-    fi
-
     if [[ -z $github_repo ]]; then
-        github_repo="Automattic/vip-go-mu-plugins"
+        github_repo="Automattic/vip-go-mu-plugins-built"
     fi
 
     if [[ -z $default_package ]]; then
@@ -149,19 +140,13 @@ download_source() {
     fi
 
     # Clone vip-go-mu-plugins
-    output 2 "Download ${project_name}.zip from GitHub release ${source_version}..."
+    output 2 "Download ${project_name}.zip from GitHub release..."
     echo
-    curl -LSO# "https://github.com/${github_repo}/archive/v${source_version}.zip"
-
-    # Check if file exists.
-    if [ ! -f "v${source_version}.zip" ]; then
-        output 1 "Error while download ${source_version}.zip from GitHub!"
-        exit 1
-    fi
+    curl -LSO# "https://github.com/${github_repo}/archive/refs/heads/master.zip"
 
     # Unzip source code.
     mkdir vip-go-mu-plugins
-    unzip -o "v${source_version}.zip" -d . && mv vip-go-mu-plugins-${source_version}/* vip-go-mu-plugins
+    unzip -o "master.zip" -d . && mv vip-go-mu-plugins-built-master/* vip-go-mu-plugins
 
 }
 
@@ -188,11 +173,6 @@ main() {
     fi
 
     commit_hash=` git log -n 1 --format="%H" HEAD`
-
-    # Default commit message uses last title if a custom one is not supplied
-    if [[ -z $commit_message ]]; then
-        commit_message="Published code reference for $project_name $source_version"
-    fi
 
     # Append hash to commit message unless no hash flag was found
     if [ $append_hash = true ]; then
