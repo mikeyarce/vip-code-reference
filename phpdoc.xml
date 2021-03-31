@@ -17,7 +17,14 @@
                 <path>lib/proxy/ip-forward.php</path>
                 <path>vip-cache-manager</path>
                 <path>cache/class-vary-cache.php</path>
-                <path>vip-helpers</path> 
+                <path>vip-helpers</path>
+                <path>debug-bar</path>
+                <path>cron-control</path>
+                <path>drop-ins/object-cache/object-cache.php</path>
+                <path>gutenberg-ramp</path>
+                <path>http-concat</path>
+                <path>files/class-image-sizes.php</path>
+                <path>search/es-wp-query</path>
             </source>
             <output>api</output>
             <ignore hidden="true" symlinks="true">
