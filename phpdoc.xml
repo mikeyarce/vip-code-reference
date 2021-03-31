@@ -26,18 +26,12 @@
             </source>
             <output>api</output>
             <ignore hidden="true" symlinks="true">
-                <!--1 or more repetitions:-->
                 <path>vip-helpers/vip-deprecated.php</path>
             </ignore>
             <extensions>
                 <extension>php</extension>
             </extensions>
             <include-source>true</include-source>
-            <markers>
-            <!--1 or more repetitions:-->
-            <marker>TODO</marker>
-            <marker>FIXME</marker>
-            </markers>
             <ignore-tags>
                 <ignore-tag>extends</ignore-tag>
                 <ignore-tag>implements</ignore-tag>
