@@ -23,7 +23,6 @@
                 <path>drop-ins/object-cache/object-cache.php</path>
                 <path>gutenberg-ramp</path>
                 <path>http-concat</path>
-                <path>files/class-image-sizes.php</path>
                 <path>search/es-wp-query</path>
             </source>
             <output>api</output>
