@@ -53,21 +53,6 @@ class HookDocsGenerator
         $files['ES-WP-Query']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'search/es-wp-query');
         $files['VIP Cache Manager']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'vip-cache-manager');
 
-
-        // $files['Template Functions'] = array( self::SOURCE_PATH . 'includes/wc-template-functions.php', self::SOURCE_PATH . 'includes/wc-template-hooks.php' );
-        // $files['Shortcodes']         = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/shortcodes/');
-        // $files['Widgets']            = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/widgets/');
-        // $files['Data Stores']        = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/data-stores');
-        // $files['Gutenberg Ramp']       = array_merge(
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/abstracts/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/customizer/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/emails/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/export/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/gateways/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/import/'),
-        //     self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'includes/shipping/')
-        // );
         return array_filter($files);
     }
 
