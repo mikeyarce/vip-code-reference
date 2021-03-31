@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VIP Go mu-plugins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+            <script src="js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">VIP Go mu-plugins</a><span class="title-separator">/</span>mu-plugins</h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+        
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/automattic.html"><abbr title="\Automattic">Automattic</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/automattic-wp.html"><abbr title="\Automattic\WP">WP</abbr></a></li>
+                                            <li><a href="namespaces/automattic-vip.html"><abbr title="\Automattic\VIP">VIP</abbr></a></li>
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/tubalmartin.html"><abbr title="\tubalmartin">tubalmartin</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/tubalmartin-cssmin.html"><abbr title="\tubalmartin\CssMin">CssMin</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/VIP.html"><abbr title="\VIP">VIP</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/a8c.html"><abbr title="\a8c">a8c</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/a8c-Cron.html"><abbr title="\a8c\Cron">Cron</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Http.html"><abbr title="\Http">Http</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Http-Concat.html"><abbr title="\Http\Concat">Concat</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/ES.html"><abbr title="\ES">ES</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/ES-WP.html"><abbr title="\ES\WP">WP</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/wp.html"><abbr title="\wp">wp</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/wp-cli.html"><abbr title="\wp\cli">cli</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="hooks/hooks.html">Hooks</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-vary-cache.php</h2>
+
+        
+
+
+
+
+
+
+<h3 id="interfaces_class_traits">
+    Interfaces, Classes and Traits
+    <a href="#interfaces_class_traits" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+    
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Automattic-VIP-Cache-Vary-Cache.html"><abbr title="\Automattic\VIP\Cache\Vary_Cache">Vary_Cache</abbr></a></dt>
+        <dd></dd>
+    
+    </dl>
+
+
+
+
+
+        
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+namespace Automattic\VIP\Cache;
+
+use WP_Error;
+
+class Vary_Cache {
+	const COOKIE_NOCACHE = &#039;vip-go-cb&#039;;
+	const COOKIE_SEGMENT = &#039;vip-go-seg&#039;;
+	const COOKIE_AUTH = &#039;vip-go-auth&#039;;
+	const HEADER_AUTH = &#039;HTTP_X_VIP_GO_AUTH&#039;;
+
+	// Allowed values in cookie are alphanumerics (A-Za-z0-9) and underscore (_) and hyphen (-).
+	const GROUP_SEPARATOR = &#039;---__&#039;;
+	const VALUE_SEPARATOR = &#039;_--_&#039;;
+	const VERSION_PREFIX = &#039;vc-v1__&#039;;
+
+	/**
+	 * Flag to indicate if this an encrypted group request
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     bool  true if encrypted
+	 */
+	private static $encryption_enabled = false;
+
+	/**
+	 * Flag to indicate if the send_headers action was triggered
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     bool  true if headers were sent
+	 */
+	private static $did_send_headers = false;
+
+	/**
+	 * Flag to indicate if we&#039;re in nocache mode.
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     bool  true if nocache enabled
+	 */
+	private static $is_user_in_nocache = false;
+
+	/**
+	 * Flag to indicate if we should update the nocache cookie.
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     bool
+	 */
+	private static $should_update_nocache_cookie = false;
+
+	/**
+	 * Flag to indicate if we should update the group/segment cookie
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     bool
+	 */
+	private static $should_update_group_cookie = false;
+
+	/**
+	 * Member variable to store the parsed group values.
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     array  Key - Group,  Value - group value
+	 */
+	private static $groups = [];
+
+	/**
+	 * Local reference for cookie expiry.
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 * @var     int expiration in seconds
+	 */
+	private static $cookie_expiry = MONTH_IN_SECONDS;
+
+	/**
+	 * Check if the user is in nocache mode.
+	 *
+	 * Should only be used after the `init` hook.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @return boolean
+	 */
+	public static function is_user_in_nocache() {
+		return (bool) self::$is_user_in_nocache;
+	}
+
+	/**
+	 * Add nocache cookie for the user.
+	 *
+	 * This bypasses all requests from the VIP Cache.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @return boolean|WP_Error
+	 */
+	public static function set_nocache_for_user() {
+		if ( self::$did_send_headers ) {
+			return new WP_Error( &#039;did_send_headers&#039;, &#039;Failed to set nocache cookie; cannot be called after the `send_headers` hook has fired.&#039; );
+		}
+
+		self::$is_user_in_nocache = true;
+		self::$should_update_nocache_cookie = true;
+
+		return true;
+	}
+
+	/**
+	 * Clears the nocache cookie for the user.
+	 *
+	 * Restores caching behaviour for all future requests.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @return boolean|WP_Error
+	 */
+	public static function remove_nocache_for_user() {
+		if ( self::$did_send_headers ) {
+			return new WP_Error( &#039;did_send_headers&#039;, &#039;Failed to remove nocache cookie; cannot be called after the `send_headers` hook has fired.&#039; );
+		}
+
+		self::$is_user_in_nocache = false;
+		self::$should_update_nocache_cookie = true;
+
+		return true;
+	}
+
+	/**
+	 * Convenience function to init the class.
+	 *
+	 * @access private
+	 */
+	public static function load() {
+		self::clear_groups();
+		self::add_filters();
+	}
+
+	/**
+	 * Convenience function to reset the class.
+	 *
+	 * Primarily used to unit tests.
+	 *
+	 * @access private
+	 */
+	public static function unload() {
+		self::remove_filters();
+
+		self::clear_groups();
+
+		self::$did_send_headers = false;
+		self::$encryption_enabled = false;
+		self::$is_user_in_nocache = false;
+		self::$should_update_nocache_cookie = false;
+		self::$should_update_group_cookie = false;
+		self::$cookie_expiry = MONTH_IN_SECONDS;
+	}
+
+	/**
+	 * Adds custom filters required at the beginning and end of the plugin lifecycle
+	 *
+	 * @access private
+	 */
+	protected static function add_filters() {
+		add_action( &#039;init&#039;, [ Vary_Cache::class, &#039;parse_cookies&#039; ] );
+		add_action( &#039;send_headers&#039;, [ Vary_Cache::class, &#039;send_headers&#039; ], PHP_INT_MAX ); // run late to catch any changes that may happen earlier in send_headers
+	}
+
+	/**
+	 * Removes the custom filters
+	 *
+	 * @access private
+	 */
+	protected static function remove_filters() {
+		remove_action( &#039;init&#039;, [ Vary_Cache::class, &#039;parse_cookies&#039; ] );
+		remove_action( &#039;send_headers&#039;, [ Vary_Cache::class, &#039;send_headers&#039; ], PHP_INT_MAX );
+	}
+
+	/**
+	 * Set request to indicate the request will vary on one or more groups.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @param  array $groups  One or more groups to vary on.
+	 * @return boolean
+	 */
+	public static function register_groups( array $groups ) {
+		if ( self::$did_send_headers ) {
+			trigger_error( sprintf( &#039;Failed to register_groups (%s); cannot be called after the `send_headers` hook has fired.&#039;, implode( &#039;, &#039;, $groups ) ), E_USER_WARNING );
+			return false;
+		}
+
+		foreach ( $groups as $group ) {
+			$validate_result = self::validate_cookie_value( $group );
+			if ( is_wp_error( $validate_result ) ) {
+				trigger_error( sprintf( &#039;Failed to register group (%s); %s&#039;, $group, $validate_result-&gt;get_error_message() ), E_USER_WARNING );
+				continue;
+			}
+
+			self::$groups[ $group ] = &#039;&#039;;
+		}
+
+		return true;
+	}
+
+	/**
+	 * Set request to indicate the request will vary on a group.
+	 *
+	 * Convenience version of `register_groups`.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @param  string $group A group to vary on.
+	 * @return boolean
+	 */
+	public static function register_group( string $group ) {
+		return self::register_groups( [ $group ] );
+	}
+
+	/**
+	 * Clears out the groups and values.
+	 */
+	private static function clear_groups() {
+		self::$groups = [];
+	}
+
+	/**
+	 * Assigns the user to given group and optionally a value for that group. E.g. location=US
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @param  string $group  Group name to vary the request on.
+	 * @param  string $value A value for the group.
+	 * @return WP_Error|boolean
+	 */
+	public static function set_group_for_user( $group, $value ) {
+		if ( self::$did_send_headers ) {
+			return new WP_Error( &#039;did_send_headers&#039;, sprintf( &#039;Failed to set group (%s =&gt; %s) for user; cannot be called after the `send_headers` hook has fired.&#039;, $group, $value ) );
+		}
+
+		$validate_group_result = self::validate_cookie_value( $group );
+		if ( is_wp_error( $validate_group_result ) ) {
+			return new WP_Error( &#039;invalid_vary_group_name&#039;, sprintf( &#039;Failed to set group (%s): %s&#039;, $group, $validate_group_result-&gt;get_error_message() ) );
+		}
+
+		$validate_value_result = self::validate_cookie_value( $value );
+		if ( is_wp_error( $validate_value_result ) ) {
+			return new WP_Error( &#039;invalid_vary_group_segment&#039;, sprintf( &#039;Failed to set group segment (%s): %s&#039;, $group, $validate_value_result-&gt;get_error_message() ) );
+		}
+
+		if ( ! array_key_exists( $group, self::$groups ) ) {
+			return new WP_Error( &#039;invalid_vary_group_notregistered&#039;, sprintf( &#039;Failed to set group (%s): Must register the group with register_group( &lt;groupname&gt; ) first. &#039;, $group ) );
+		}
+
+		self::$groups[ $group ] = $value;
+
+		self::$should_update_group_cookie = true;
+
+		return true;
+	}
+
+	/**
+	 * Checks if the request has a group cookie matching a given group, regardless of segment value.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @param  string $group Group name.
+	 *
+	 * @return bool   True on success. False on failure.
+	 */
+	public static function is_user_in_group( $group ) {
+		// The group isn&#039;t defined, or the user isn&#039;t in it.
+		if ( ! array_key_exists( $group, self::$groups ) || &#039;&#039; === trim( self::$groups[ $group ] ) ) {
+			return false;
+		}
+
+		return true;
+	}
+
+	/**
+	 * Checks if the request has a group cookie matching a given group and segment. e.g. &#039;dev-group&#039;, &#039;yes&#039;
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @param  string $group Group name.
+	 * @param  string $segment Which segment within the group to check.
+	 *
+	 * @return bool   True on success. False on failure.
+	 */
+	public static function is_user_in_group_segment( $group, $segment ) {
+		if ( ! self::is_user_in_group( $group ) ) {
+			return false;
+		}
+
+		// Check for a specific group segment.
+		return self::$groups[ $group ] === $segment;
+	}
+
+
+	/**
+	 * Returns the associated groups for the request.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @return array  user&#039;s group-value pairs
+	 */
+	public static function get_groups() {
+		return self::$groups;
+	}
+
+	/**
+	 * Sets the context of the the group segmentation to be encrypted or not.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @return WP_Error|null
+	 */
+	public static function enable_encryption() {
+		// Validate that we have the secret values.
+		if ( ( ! defined( &#039;VIP_GO_AUTH_COOKIE_KEY&#039; ) || ! defined( &#039;VIP_GO_AUTH_COOKIE_IV&#039; ) ||
+			empty( constant( &#039;VIP_GO_AUTH_COOKIE_KEY&#039; ) ) || empty( constant( &#039;VIP_GO_AUTH_COOKIE_IV&#039; ) ) ) ) {
+			trigger_error( &#039;Vary_Cache: Cannot enable encryption because the required constants (VIP_GO_AUTH_COOKIE_KEY and VIP_GO_AUTH_COOKIE_IV) are not defined correctly. Please contact VIP Support for assistance.&#039;, E_USER_ERROR );
+		}
+
+		static::$encryption_enabled = true;
+	}
+
+	/**
+	 * Returns the encryption flag
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @return bool true if encryption is set for this request
+	 */
+	public static function is_encryption_enabled() {
+		return static::$encryption_enabled;
+	}
+
+	/**
+	 * Encrypts a string using the auth credentials for the site.
+	 *
+	 * @param string $value cookie text value.
+	 * @throws string If credentials ENV Variables aren&#039;t defined.
+	 * @return string encrypted version of string
+	 */
+	private static function encrypt_cookie_value( $value ) {
+		$client_key = constant( &#039;VIP_GO_AUTH_COOKIE_KEY&#039; );
+		$client_iv = constant( &#039;VIP_GO_AUTH_COOKIE_IV&#039; );
+		$cookie_value = random_int( 0,  PHP_INT_MAX ) . &#039;|&#039; . $value . &#039;|&#039; . ( time() + self::$cookie_expiry );
+		$cipher_cookie = openssl_encrypt( $cookie_value, &#039;aes-128-cbc&#039;, $client_key, 0, $client_iv );
+
+		return $cipher_cookie;
+	}
+
+	/**
+	 * Decrypts a string using the auth credentials for the site.
+	 *
+	 * @param string $cookie_value the encrypted string.
+	 * @throws string If credentials ENV Variables aren&#039;t defined.
+	 * @return string decrypted version of string
+	 */
+	private static function decrypt_cookie_value( $cookie_value ) {
+		$client_key = constant( &#039;VIP_GO_AUTH_COOKIE_KEY&#039; );
+		$client_iv = constant( &#039;VIP_GO_AUTH_COOKIE_IV&#039; );
+		$cipher_cookie = openssl_decrypt( $cookie_value, &#039;aes-128-cbc&#039;, $client_key, 0, $client_iv );
+		$cookie_array = explode( &#039;|&#039;, $cipher_cookie );
+		// Parse out the group payload (2nd item).
+		if ( count( $cookie_array ) &lt; 2 ) {
+			return null;
+		}
+		return $cookie_array [1];
+	}
+
+	/**
+	 * Parses our nocache and group cookies.
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 */
+	public static function parse_cookies() {
+		self::parse_nocache_cookie();
+		self::parse_group_cookie();
+	}
+
+	/**
+	 * Parses the nocache cookie to see if nocache mode is enabled.
+	 */
+	private static function parse_nocache_cookie() {
+		if ( isset( $_COOKIE[ self::COOKIE_NOCACHE ] ) ) {
+			self::$is_user_in_nocache = true;
+		} else {
+			self::$is_user_in_nocache = false;
+		}
+	}
+
+	/**
+	 * Parses the group/segment cookie into the local groups array of key-values.
+	 */
+	private static function parse_group_cookie() {
+		// If the cache layer supplies a decrypted segmentation header, use that instead of decrypting it again.
+		if ( self::is_encryption_enabled() &amp;&amp; isset( $_SERVER[ self::HEADER_AUTH ] ) &amp;&amp;  ! empty( $_SERVER[ self::HEADER_AUTH ] ) ) {
+			$cookie_value = $_SERVER[ self::HEADER_AUTH ];
+		} elseif ( self::is_encryption_enabled() &amp;&amp; ! empty( $_COOKIE[ self::COOKIE_AUTH ] ) ) {
+			// If the header auth isn&#039;t set (in case of a logged-in user), fall back to decrypting the cookie itself.
+			$auth_cookie = null;
+			// $_COOKIE is automatically urldecoded, so we need to search through the $_SERVER version to get the unencoded one.
+			foreach( explode( &#039;; &#039;, $_SERVER[ &#039;HTTP_COOKIE&#039; ] ) as $rawcookie ) {
+				list( $k, $v ) = explode( &#039;=&#039;, $rawcookie, 2 );
+				if( self::COOKIE_AUTH === $k ) {
+					$auth_cookie = $v;
+					break;
+				}
+			}
+
+			$value = ltrim( $auth_cookie, VIP_GO_APP_ID . &#039;.&#039; ); // remove the site prefix
+			$cookie_value = self::decrypt_cookie_value( $value );
+
+		} elseif ( ! empty( $_COOKIE[ self::COOKIE_SEGMENT ] ) ) {
+			$cookie_value = $_COOKIE[ self::COOKIE_SEGMENT ];
+		}
+
+		if ( empty( $cookie_value ) ) {
+			return;
+		}
+
+		$cookie_value = str_replace( self::VERSION_PREFIX, &#039;&#039;, $cookie_value );
+		$groups = explode( self::GROUP_SEPARATOR, $cookie_value );
+		foreach ( $groups as $group ) {
+			if ( empty( $group ) ) {
+				continue;
+			}
+			list( $group_name, $group_value ) = explode( self::VALUE_SEPARATOR, $group );
+			self::$groups[ $group_name ] = $group_value ?? &#039;&#039;;
+		}
+	}
+
+	/**
+	 * Flattens the 2D array into a serialized string compatible with the cookie format.
+	 *
+	 * @return null|string A string representation of the groups
+	 */
+	private static function stringify_groups() {
+		if ( empty( self::$groups ) ) {
+			return;
+		}
+
+		ksort( self::$groups ); // make sure the string order is the same every time.
+		$flattened = [];
+		foreach ( self::$groups as $key =&gt; $value ) {
+			if ( &#039;&#039; === trim( $value ) ) {
+				continue;
+			}
+			$flattened[] = $key . self::VALUE_SEPARATOR . $value;
+		}
+
+		if ( empty( $flattened ) ) {
+			return;
+		}
+
+		return self::VERSION_PREFIX . implode( self::GROUP_SEPARATOR, $flattened );
+	}
+
+	/**
+	 * Adjust the default cookie expiry.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 *
+	 * @param int $expiry Seconds in the future when the cookie should expire (e.g. MONTH_IN_SECONDS). Must be more than 1 hour.
+	 */
+	public static function set_cookie_expiry( int $expiry ) {
+		if ( $expiry &lt; HOUR_IN_SECONDS ) {
+			trigger_error( sprintf( &#039;%s: cookie expiry must be greater than or equal to 1 hour (%d)&#039;, __METHOD__, HOUR_IN_SECONDS ), E_USER_WARNING );
+			return;
+		}
+
+		self::$cookie_expiry = $expiry;
+	}
+
+	/**
+	 * Sends headers (if needed).
+	 *
+	 * @since   1.0.0
+	 * @access  private
+	 */
+	public static function send_headers() {
+		if ( ! self::$did_send_headers ) {
+			self::$did_send_headers = true;
+
+			$sent_vary = self::send_vary_headers();
+			$sent_cookie = self::set_cookies();
+
+			if ( $sent_vary || $sent_cookie ) {
+				/**
+				 * Vary or Set-Cookie header were sent.
+				 *
+				 * Can be used to handle things like early redirects after a user action and group assignment.
+				 *
+				 * @since 1.0.0
+				 *
+				 * @param boolean $sent_vary Was a Vary header sent?
+				 * @param boolean $sent_cookie Was a Set-Cookie header sent?
+				 */
+				do_action( &#039;vip_vary_cache_did_send_headers&#039;, $sent_vary, $sent_cookie );
+			}
+		}
+	}
+
+	/**
+	 * Determines if cookies need to be set and then sets them.
+	 *
+	 * @return boolean Was at least one cookie set?
+	 */
+	private static function set_cookies() {
+		$sent_cookie = false;
+
+		if ( self::$should_update_group_cookie ) {
+			$sent_cookie = true;
+
+			self::set_group_cookie();
+		}
+
+		if ( self::$should_update_nocache_cookie ) {
+			$sent_cookie = true;
+
+			self::set_nocache_cookie();
+		}
+
+		return $sent_cookie;
+	}
+
+	/**
+	 * Sets the group/segment cookie based on the user&#039;s current groupings.
+	 */
+	private static function set_group_cookie() {
+		$group_string = self::stringify_groups();
+		if ( empty( $group_string ) ) {
+			return;
+		}
+
+		if ( self::is_encryption_enabled() ) {
+			$cookie_value = self::encrypt_cookie_value( $group_string );
+			self::set_cookie( self::COOKIE_AUTH, VIP_GO_APP_ID . &#039;.&#039; . $cookie_value );
+		} else {
+			self::set_cookie( self::COOKIE_SEGMENT, $group_string );
+		}
+	}
+
+	/**
+	 * Sets (or unsets) the group/segment cookie.
+	 */
+	private static function set_nocache_cookie() {
+		if ( self::$is_user_in_nocache ) {
+			self::set_cookie( self::COOKIE_NOCACHE, 1 );
+		} else {
+			self::unset_cookie( self::COOKIE_NOCACHE );
+		}
+	}
+
+	/**
+	 * Add the vary cache headers to indicate that the response should be cached
+	 *
+	 * @return boolean Was at least one cookie set?
+	 */
+	private static function send_vary_headers() {
+		$sent_vary = false;
+
+		if ( ! empty( self::$groups ) ) {
+			$sent_vary = true;
+
+			if ( self::is_encryption_enabled() ) {
+				header( &#039;Vary: X-VIP-Go-Auth&#039;, false );
+			} else {
+				header( &#039;Vary: X-VIP-Go-Segmentation&#039;, false );
+			}
+
+			if ( defined( &#039;WP_DEBUG&#039; ) &amp;&amp; true === WP_DEBUG ) {
+				header( &#039;X-VIP-Go-Segmentation-Debug: &#039; . self::stringify_groups() );
+			}
+		}
+
+		return $sent_vary;
+	}
+
+	/**
+	 * Wrapper for the set cookie function to control the TTL
+	 *
+	 * @param string $name  Cookie Name.
+	 * @param string $value Cookie Value.
+	 */
+	private static function set_cookie( $name, $value ) {
+		$expiry = time() + self::$cookie_expiry;
+		// Need to use setrawcookie() here to prevent PHP from URLEncoding the base-64 terminator (==) on encrypted payloads
+		setrawcookie( $name, $value, $expiry, COOKIEPATH, COOKIE_DOMAIN );
+	}
+
+	/**
+	 * Wrapper for the set cookie function to clear out the cookie
+	 *
+	 * @param string $name  Cookie Name.
+	 */
+	private static function unset_cookie( $name ) {
+		setcookie( $name, &#039;&#039;, time() - 3600 );
+	}
+	/**
+	 * Only allow alphanumerics, dash and underscore
+	 *
+	 * @param string $value The string you want to test on.
+	 * @return WP_Error|boolean
+	 */
+	private static function validate_cookie_value( $value ) {
+		if ( preg_match( &#039;/[^_0-9a-zA-Z-]+/&#039;, $value ) &gt; 0 ) {
+			return new WP_Error( &#039;vary_cache_group_invalid_chars&#039;, &#039;Invalid character(s). Can only use alphanumerics, dash and underscore&#039; );
+		}
+
+		if ( strpos( $value, self::VALUE_SEPARATOR ) !== false || strpos( $value, self::GROUP_SEPARATOR ) !== false ) {
+			return new WP_Error( &#039;vary_cache_group_cannot_use_delimiter&#039;, sprintf( &#039;Cannot use the delimiter values (`%s` or `%s`)&#039;, self::GROUP_SEPARATOR, self::VALUE_SEPARATOR ) );
+		}
+
+		return true;
+	}
+
+
+
+}
+
+Vary_Cache::load();
+</code></pre>
+            </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="files/cache-class-vary-cache.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+</body>
+</html>

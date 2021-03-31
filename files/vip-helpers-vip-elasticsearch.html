@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VIP Go mu-plugins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+            <script src="js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">VIP Go mu-plugins</a><span class="title-separator">/</span>mu-plugins</h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+        
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/automattic.html"><abbr title="\Automattic">Automattic</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/automattic-wp.html"><abbr title="\Automattic\WP">WP</abbr></a></li>
+                                            <li><a href="namespaces/automattic-vip.html"><abbr title="\Automattic\VIP">VIP</abbr></a></li>
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/tubalmartin.html"><abbr title="\tubalmartin">tubalmartin</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/tubalmartin-cssmin.html"><abbr title="\tubalmartin\CssMin">CssMin</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/VIP.html"><abbr title="\VIP">VIP</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/a8c.html"><abbr title="\a8c">a8c</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/a8c-Cron.html"><abbr title="\a8c\Cron">Cron</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Http.html"><abbr title="\Http">Http</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Http-Concat.html"><abbr title="\Http\Concat">Concat</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/ES.html"><abbr title="\ES">ES</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/ES-WP.html"><abbr title="\ES\WP">WP</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/wp.html"><abbr title="\wp">wp</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/wp-cli.html"><abbr title="\wp\cli">cli</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="hooks/hooks.html">Hooks</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">vip-elasticsearch.php</h2>
+
+        
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                        <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_es_api_search_index">es_api_search_index()</a>
+    <span>
+                        &nbsp;: bool|string    </span>
+</dt>
+<dd>Executes an elasticsearch query via our REST API.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_wpcom_vip_did_elasticsearch_query">wpcom_vip_did_elasticsearch_query()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_wpcom_search_api_query">wpcom_search_api_query()</a>
+    <span>
+                        &nbsp;: bool|string    </span>
+</dt>
+<dd>A wrapper for es_api_search_index() that accepts WP-style args</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_wpcom_search_api_wp_to_es_args">wpcom_search_api_wp_to_es_args()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Converts WP-style args to ES args</dd>
+
+    </dl>
+
+
+
+        
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="files/vip-helpers-vip-elasticsearch.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_es_api_search_index">
+        es_api_search_index()
+        <a href="namespaces/default.html#function_es_api_search_index" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vip-helpers/vip-elasticsearch.php"><a href="files/vip-helpers-vip-elasticsearch.html"><abbr title="vip-helpers/vip-elasticsearch.php">vip-elasticsearch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Executes an elasticsearch query via our REST API.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">es_api_search_index</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+        <section class="phpdocumentor-description"><p>Requires setup on our end and a paid addon to your hosting account.
+You probably shouldn't be using this function. Questions? Ask us.</p>
+<p>Valid arguments:</p>
+<ul>
+<li>
+<p>size: Number of query results to return.</p>
+</li>
+<li>
+<p>from: Offset, the starting result to return.</p>
+</li>
+<li>
+<p>multi_match: Will do a match search against the default fields (this is almost certainly what you want).
+e.g. array( 'query' =&gt; 'this is a test', 'fields' =&gt; array( 'content' ) )
+See: http://www.elasticsearch.org/guide/reference/query-dsl/multi-match-query.html</p>
+</li>
+<li>
+<p>query_string: Will do a query_string search, interprets the string as Lucene query syntax.
+e.g. array( 'default_field' =&gt; 'content', 'query' =&gt; 'tag:(world OR nation) howdy' )
+This can fail if the user doesn't close parenthesis, or specifies a field that is not valid.
+See: http://www.elasticsearch.org/guide/reference/query-dsl/query-string-query.html</p>
+</li>
+<li>
+<p>more_like_this: Will do a more_like_this search, which is best for related content.
+e.g. array( 'fields' =&gt; array( 'title', 'content' ), 'like_text' =&gt; 'this is a test', 'min_term_freq' =&gt; 1, 'max_query_terms' =&gt; 12 )
+See: http://www.elasticsearch.org/guide/reference/query-dsl/mlt-query.html</p>
+</li>
+<li>
+<p>facets: Structured set of facets. DO NOT do a terms facet on the content of posts/comments. It will load ALL terms into memory,
+probably taking minutes to complete and slowing down the entire cluster. With great power... etc.
+See: http://www.elasticsearch.org/guide/reference/api/search/facets/index.html</p>
+</li>
+<li>
+<p>filter: Structured set of filters (often FASTER, since cached from one query to the next).
+See: http://www.elasticsearch.org/guide/reference/query-dsl/filtered-query.html</p>
+</li>
+<li>
+<p>highlight: Structure defining how to highlight the results.
+See: http://www.elasticsearch.org/guide/reference/api/search/highlighting.html</p>
+</li>
+<li>
+<p>fields: Structure defining what fields to return with the results.
+See: http://www.elasticsearch.org/guide/reference/api/search/fields.html</p>
+</li>
+<li>
+<p>sort: Structure defining how to sort the results.
+See: http://www.elasticsearch.org/guide/reference/api/search/sort.html</p>
+</li>
+</ul>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpcom_vip_did_elasticsearch_query">
+        wpcom_vip_did_elasticsearch_query()
+        <a href="namespaces/default.html#function_wpcom_vip_did_elasticsearch_query" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vip-helpers/vip-elasticsearch.php"><a href="files/vip-helpers-vip-elasticsearch.html"><abbr title="vip-helpers/vip-elasticsearch.php">vip-elasticsearch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">133</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpcom_vip_did_elasticsearch_query</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$query</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$query</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpcom_search_api_query">
+        wpcom_search_api_query()
+        <a href="namespaces/default.html#function_wpcom_search_api_query" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vip-helpers/vip-elasticsearch.php"><a href="files/vip-helpers-vip-elasticsearch.html"><abbr title="vip-helpers/vip-elasticsearch.php">vip-elasticsearch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">161</span>
+</aside>
+
+        <p class="phpdocumentor-summary">A wrapper for es_api_search_index() that accepts WP-style args</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpcom_search_api_query</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$stat_app_name</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;blog-search&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|string</span></code>
+
+        <section class="phpdocumentor-description"><p>This is a copy/paste, up to date as of WP.com r65003 (Jan 7th, 2013)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$stat_app_name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;blog-search&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="namespaces/default.html#function_wpcom_search_api_wp_to_es_args"><abbr title="\wpcom_search_api_wp_to_es_args()">wpcom_search_api_wp_to_es_args()</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"><p>for details</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_wpcom_search_api_wp_to_es_args">
+        wpcom_search_api_wp_to_es_args()
+        <a href="namespaces/default.html#function_wpcom_search_api_wp_to_es_args" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vip-helpers/vip-elasticsearch.php"><a href="files/vip-helpers-vip-elasticsearch.html"><abbr title="vip-helpers/vip-elasticsearch.php">vip-elasticsearch.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">173</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Converts WP-style args to ES args</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                <span class="phpdocumentor-signature__name">wpcom_search_api_wp_to_es_args</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+
+/**
+ * Executes an elasticsearch query via our REST API.
+ *
+ * Requires setup on our end and a paid addon to your hosting account.
+ * You probably shouldn&#039;t be using this function. Questions? Ask us.
+ *
+ * Valid arguments:
+ *
+ * * size: Number of query results to return.
+ *
+ * * from: Offset, the starting result to return.
+ *
+ * * multi_match: Will do a match search against the default fields (this is almost certainly what you want).
+ *                e.g. array( &#039;query&#039; =&gt; &#039;this is a test&#039;, &#039;fields&#039; =&gt; array( &#039;content&#039; ) )
+ *                See: http://www.elasticsearch.org/guide/reference/query-dsl/multi-match-query.html
+ *
+ * * query_string: Will do a query_string search, interprets the string as Lucene query syntax.
+ *                 e.g. array( &#039;default_field&#039; =&gt; &#039;content&#039;, &#039;query&#039; =&gt; &#039;tag:(world OR nation) howdy&#039; )
+ *                 This can fail if the user doesn&#039;t close parenthesis, or specifies a field that is not valid.
+ *                 See: http://www.elasticsearch.org/guide/reference/query-dsl/query-string-query.html
+ *
+ * * more_like_this: Will do a more_like_this search, which is best for related content.
+ *                   e.g. array( &#039;fields&#039; =&gt; array( &#039;title&#039;, &#039;content&#039; ), &#039;like_text&#039; =&gt; &#039;this is a test&#039;, &#039;min_term_freq&#039; =&gt; 1, &#039;max_query_terms&#039; =&gt; 12 )
+ *                   See: http://www.elasticsearch.org/guide/reference/query-dsl/mlt-query.html
+ *
+ * * facets: Structured set of facets. DO NOT do a terms facet on the content of posts/comments. It will load ALL terms into memory,
+ *           probably taking minutes to complete and slowing down the entire cluster. With great power... etc.
+ *           See: http://www.elasticsearch.org/guide/reference/api/search/facets/index.html
+ *
+ * * filter: Structured set of filters (often FASTER, since cached from one query to the next).
+ *            See: http://www.elasticsearch.org/guide/reference/query-dsl/filtered-query.html
+ *
+ * * highlight: Structure defining how to highlight the results.
+ *              See: http://www.elasticsearch.org/guide/reference/api/search/highlighting.html
+ *
+ * * fields: Structure defining what fields to return with the results.
+ *           See: http://www.elasticsearch.org/guide/reference/api/search/fields.html
+ *
+ * * sort: Structure defining how to sort the results.
+ *         See: http://www.elasticsearch.org/guide/reference/api/search/sort.html
+ *
+ * @param array $args
+ * @return bool|string False if WP_Error, otherwise JSON string
+ */
+function es_api_search_index( $args ) {
+    if ( class_exists( &#039;Jetpack&#039; ) ) {
+        $jetpack_blog_id = Jetpack::get_option( &#039;id&#039; );
+        if ( ! $jetpack_blog_id ) {
+            return array( &#039;error&#039; =&gt; &#039;Failed to get Jetpack blog_id&#039; );
+        }
+
+        $args[&#039;blog_id&#039;] = $jetpack_blog_id;
+    }
+
+    $defaults = array(
+        &#039;blog_id&#039; =&gt; get_current_blog_id(),
+    );
+
+    $args = wp_parse_args( $args, $defaults );
+
+    $args[&#039;blog_id&#039;] = absint( $args[&#039;blog_id&#039;] );
+
+    $endpoint = sprintf( &#039;/sites/%s/search&#039;, $args[&#039;blog_id&#039;] );
+    $service_url = &#039;https://public-api.wordpress.com/rest/v1&#039; . $endpoint;
+
+    $do_authenticated_request = false;
+    if ( class_exists( &#039;Jetpack_Client&#039; )
+            &amp;&amp; isset( $args[&#039;authenticated_request&#039;] )
+	    &amp;&amp; true === $args[&#039;authenticated_request&#039;] ) {
+        $do_authenticated_request = true;
+    }
+
+    unset( $args[&#039;blog_id&#039;] );
+    unset( $args[&#039;authenticated_request&#039;] );
+
+    $request_args = array(
+        &#039;headers&#039; =&gt; array(
+            &#039;Content-Type&#039; =&gt; &#039;application/json&#039;,
+        ),
+    );
+    $request_body = json_encode( $args );
+
+    $start_time = microtime( true );
+
+    if ( $do_authenticated_request ) {
+      $request_args[&#039;method&#039;] = &#039;POST&#039;;
+
+      $request = Jetpack_Client::wpcom_json_api_request_as_blog( $endpoint, Jetpack_Client::WPCOM_JSON_API_VERSION, $request_args, $request_body );
+    } else {
+      $request_args = array_merge( $request_args, array(
+        &#039;body&#039; =&gt; $request_body,
+	    ) );
+
+      $request = wp_remote_post( $service_url, $request_args );
+    }
+
+    $end_time = microtime( true );
+
+    if ( is_wp_error( $request ) )
+        return false;
+
+    $response = json_decode( wp_remote_retrieve_body( $request ), true );
+
+    // Rewrite blog id from remote to local id
+    if ( isset( $response[&#039;results&#039;] ) &amp;&amp; isset( $response[&#039;results&#039;][&#039;hits&#039;] ) ) {
+        $local_blog_id = get_current_blog_id();
+        foreach ( $response[&#039;results&#039;][&#039;hits&#039;] as $key =&gt; $hit ) {
+            if ( isset( $hit[&#039;fields&#039;][&#039;blog_id&#039;] ) &amp;&amp; $hit[&#039;fields&#039;][&#039;blog_id&#039;] == $jetpack_blog_id ) {
+                $response[&#039;results&#039;][&#039;hits&#039;][$key][&#039;fields&#039;][&#039;blog_id&#039;] = $local_blog_id;
+            }
+        }
+    }
+
+    $took = $response &amp;&amp; $response[&#039;took&#039;] ? $response[&#039;took&#039;] : null;
+
+    $queried = array(
+        &#039;args&#039;          =&gt; $args,
+        &#039;response&#039;      =&gt; $response,
+        &#039;response_code&#039; =&gt; wp_remote_retrieve_response_code( $request ),
+        &#039;elapsed_time&#039;  =&gt; ( $end_time - $start_time ) * 1000, // Convert from float seconds to ms
+        &#039;es_time&#039;       =&gt; $took,
+        &#039;url&#039;           =&gt; $service_url,
+	);
+
+	do_action( &#039;did_vip_elasticsearch_query&#039;, $queried );
+
+    return $response;
+}
+
+// Log all ES queries
+function wpcom_vip_did_elasticsearch_query( $query ) {
+	if ( ! defined( &#039;SAVEQUERIES&#039; ) || ! SAVEQUERIES ) {
+		return;
+	}
+
+	global $wp_elasticsearch_queries_log;
+
+	if ( ! $wp_elasticsearch_queries_log ) {
+		$wp_elasticsearch_queries_log = array();
+	}
+
+	$query[&#039;backtrace&#039;] = wp_debug_backtrace_summary();
+
+	$wp_elasticsearch_queries_log[] = $query;
+}
+
+add_action( &#039;did_vip_elasticsearch_query&#039;, &#039;wpcom_vip_did_elasticsearch_query&#039; );
+
+/**
+ * A wrapper for es_api_search_index() that accepts WP-style args
+ *
+ * This is a copy/paste, up to date as of WP.com r65003 (Jan 7th, 2013)
+ *
+ * @param array $args
+ * @param string $stat_app_name Optional.
+ * @return bool|string False if WP_Error, otherwise JSON string
+ * @see wpcom_search_api_wp_to_es_args() for details
+ */
+function wpcom_search_api_query( $args, $stat_app_name = &#039;blog-search&#039; ) {
+    $es_query_args = wpcom_search_api_wp_to_es_args( $args );
+
+    return es_api_search_index( $es_query_args, $stat_app_name );
+}
+
+/**
+ * Converts WP-style args to ES args
+ *
+ * @param array $args
+ * @return array
+ */
+function wpcom_search_api_wp_to_es_args( $args ) {
+    $defaults = array(
+        &#039;blog_id&#039;        =&gt; get_current_blog_id(),
+
+        &#039;query&#039;          =&gt; null,    // Search phrase
+        &#039;query_fields&#039;   =&gt; array( &#039;title&#039;, &#039;content&#039;, &#039;author&#039;, &#039;tag&#039;, &#039;category&#039; ),
+
+        &#039;post_type&#039;      =&gt; &#039;post&#039;,  // string or an array
+        &#039;terms&#039;          =&gt; array(), // ex: array( &#039;taxonomy-1&#039; =&gt; array( &#039;slug&#039; ), &#039;taxonomy-2&#039; =&gt; array( &#039;slug-a&#039;, &#039;slug-b&#039; ) )
+
+        &#039;author&#039;         =&gt; null,    // id or an array of ids
+        &#039;author_name&#039;    =&gt; array(), // string or an array
+
+        &#039;date_range&#039;     =&gt; null,    // array( &#039;field&#039; =&gt; &#039;date&#039;, &#039;gt&#039; =&gt; &#039;YYYY-MM-dd&#039;, &#039;lte&#039; =&gt; &#039;YYYY-MM-dd&#039; ); date formats: &#039;YYYY-MM-dd&#039; or &#039;YYYY-MM-dd HH:MM:SS&#039;
+
+        &#039;orderby&#039;        =&gt; null,    // Defaults to &#039;relevance&#039; if query is set, otherwise &#039;date&#039;. Pass an array for multiple orders.
+        &#039;order&#039;          =&gt; &#039;DESC&#039;,
+
+        &#039;posts_per_page&#039; =&gt; 10,
+        &#039;offset&#039;         =&gt; null,
+        &#039;paged&#039;          =&gt; null,
+
+        /**
+         * Facets. Examples:
+         * array(
+         *     &#039;Tag&#039;       =&gt; array( &#039;type&#039; =&gt; &#039;taxonomy&#039;, &#039;taxonomy&#039; =&gt; &#039;post_tag&#039;, &#039;count&#039; =&gt; 10 ) ),
+         *     &#039;Post Type&#039; =&gt; array( &#039;type&#039; =&gt; &#039;post_type&#039;, &#039;count&#039; =&gt; 10 ) ),
+         * );
+         */
+        &#039;facets&#039;         =&gt; null,
+    );
+
+    $raw_args = $args; // Keep a copy
+
+    $args = wp_parse_args( $args, $defaults );
+
+    $es_query_args = array(
+        &#039;blog_id&#039; =&gt; absint( $args[&#039;blog_id&#039;] ),
+        &#039;size&#039;    =&gt; absint( $args[&#039;posts_per_page&#039;] ),
+    );
+
+    // ES &quot;from&quot; arg (offset)
+    if ( $args[&#039;offset&#039;] ) {
+        $es_query_args[&#039;from&#039;] = absint( $args[&#039;offset&#039;] );
+    } elseif ( $args[&#039;paged&#039;] ) {
+        $es_query_args[&#039;from&#039;] = max( 0, ( absint( $args[&#039;paged&#039;] ) - 1 ) * $es_query_args[&#039;size&#039;] );
+    }
+
+    if ( !is_array( $args[&#039;author_name&#039;] ) ) {
+        $args[&#039;author_name&#039;] = array( $args[&#039;author_name&#039;] );
+    }
+
+    // ES stores usernames, not IDs, so transform
+    if ( ! empty( $args[&#039;author&#039;] ) ) {
+        if ( !is_array( $args[&#039;author&#039;] ) )
+            $args[&#039;author&#039;] = array( $args[&#039;author&#039;] );
+        foreach ( $args[&#039;author&#039;] as $author ) {
+            $user = get_user_by( &#039;id&#039;, $author );
+
+            if ( $user &amp;&amp; ! empty( $user-&gt;user_login ) ) {
+                $args[&#039;author_name&#039;][] = $user-&gt;user_login;
+            }
+        }
+    }
+
+    // Build the filters from the query elements.
+    // Filters rock because they are cached from one query to the next
+    // but they are cached as individual filters, rather than all combined together.
+    // May get performance boost by also caching the top level boolean filter too.
+    $filters = array();
+
+    if ( $args[&#039;post_type&#039;] ) {
+        if ( !is_array( $args[&#039;post_type&#039;] ) )
+            $args[&#039;post_type&#039;] = array( $args[&#039;post_type&#039;] );
+        $filters[] = array( &#039;terms&#039; =&gt; array( &#039;post_type&#039; =&gt; $args[&#039;post_type&#039;] ) );
+    }
+
+    if ( $args[&#039;author_name&#039;] ) {
+        $filters[] = array( &#039;terms&#039; =&gt; array( &#039;author_login&#039; =&gt; $args[&#039;author_name&#039;] ) );
+    }
+
+    if ( !empty( $args[&#039;date_range&#039;] ) &amp;&amp; isset( $args[&#039;date_range&#039;][&#039;field&#039;] ) ) {
+        $field = $args[&#039;date_range&#039;][&#039;field&#039;];
+        unset( $args[&#039;date_range&#039;][&#039;field&#039;] );
+        $filters[] = array( &#039;range&#039; =&gt; array( $field =&gt; $args[&#039;date_range&#039;] ) );
+    }
+
+    if ( is_array( $args[&#039;terms&#039;] ) ) {
+        foreach ( $args[&#039;terms&#039;] as $tax =&gt; $terms ) {
+            $terms = (array) $terms;
+            if ( count( $terms ) &amp;&amp; mb_strlen( $tax ) ) {
+                switch ( $tax ) {
+                    case &#039;post_tag&#039;:
+                        $tax_fld = &#039;tag.slug&#039;;
+                        break;
+                    case &#039;category&#039;:
+                        $tax_fld = &#039;category.slug&#039;;
+                        break;
+                    default:
+                        $tax_fld = &#039;taxonomy.&#039; . $tax . &#039;.slug&#039;;
+                        break;
+                }
+                foreach ( $terms as $term ) {
+                    $filters[] = array( &#039;term&#039; =&gt; array( $tax_fld =&gt; $term ) );
+                }
+            }
+        }
+    }
+
+    if ( ! empty( $filters ) ) {
+        $es_query_args[&#039;filter&#039;] = array( &#039;and&#039; =&gt; $filters );
+    } else {
+        $es_query_args[&#039;filter&#039;] = array( &#039;match_all&#039; =&gt; new stdClass() );
+    }
+
+    // Fill in the query
+    //  todo: add auto phrase searching
+    //  todo: add fuzzy searching to correct for spelling mistakes
+    //  todo: boost title, tag, and category matches
+    if ( $args[&#039;query&#039;] ) {
+        $es_query_args[&#039;query&#039;] = array( &#039;multi_match&#039; =&gt; array(
+            &#039;query&#039;  =&gt; $args[&#039;query&#039;],
+            &#039;fields&#039; =&gt; $args[&#039;query_fields&#039;],
+            &#039;operator&#039;  =&gt; &#039;and&#039;,
+            &#039;type&#039;  =&gt; &#039;cross_fields&#039;,
+        ) );
+
+        if ( ! $args[&#039;orderby&#039;] ) {
+            $args[&#039;orderby&#039;] = array( &#039;relevance&#039; );
+        }
+    } else {
+        if ( ! $args[&#039;orderby&#039;] ) {
+            $args[&#039;orderby&#039;] = array( &#039;date&#039; );
+        }
+    }
+
+    // Validate the &quot;order&quot; field
+    switch ( strtolower( $args[&#039;order&#039;] ) ) {
+        case &#039;asc&#039;:
+            $args[&#039;order&#039;] = &#039;asc&#039;;
+            break;
+        case &#039;desc&#039;:
+        default:
+            $args[&#039;order&#039;] = &#039;desc&#039;;
+            break;
+    }
+
+    $es_query_args[&#039;sort&#039;] = array();
+    foreach ( (array) $args[&#039;orderby&#039;] as $orderby ) {
+        // Translate orderby from WP field to ES field
+        // todo: add support for sorting by title, num likes, num comments, num views, etc
+        switch ( $orderby ) {
+            case &#039;relevance&#039; :
+                $es_query_args[&#039;sort&#039;][] = array( &#039;_score&#039; =&gt; array( &#039;order&#039; =&gt; $args[&#039;order&#039;] ) );
+                break;
+            case &#039;date&#039; :
+                $es_query_args[&#039;sort&#039;][] = array( &#039;date&#039; =&gt; array( &#039;order&#039; =&gt; $args[&#039;order&#039;] ) );
+                break;
+            case &#039;ID&#039; :
+                $es_query_args[&#039;sort&#039;][] = array( &#039;id&#039; =&gt; array( &#039;order&#039; =&gt; $args[&#039;order&#039;] ) );
+                break;
+            case &#039;author&#039; :
+                $es_query_args[&#039;sort&#039;][] = array( &#039;author.raw&#039; =&gt; array( &#039;order&#039; =&gt; $args[&#039;order&#039;] ) );
+                break;
+        }
+    }
+    if ( empty( $es_query_args[&#039;sort&#039;] ) )
+        unset( $es_query_args[&#039;sort&#039;] );
+
+	// Facets. Deprecated in favor of Aggregations. Code is very similar, but left in place for backwards compatibility
+	// while things are migrated over. Should be removed once everything is running &gt; 2.x
+    if ( ! empty( $args[&#039;facets&#039;] ) ) {
+        foreach ( (array) $args[&#039;facets&#039;] as $label =&gt; $facet ) {
+            switch ( $facet[&#039;type&#039;] ) {
+
+                case &#039;taxonomy&#039;:
+                    switch ( $facet[&#039;taxonomy&#039;] ) {
+
+                        case &#039;post_tag&#039;:
+                            $field = &#039;tag&#039;;
+                            break;
+
+                        case &#039;category&#039;:
+                            $field = &#039;category&#039;;
+                            break;
+
+                        default:
+                            $field = &#039;taxonomy.&#039; . $facet[&#039;taxonomy&#039;];
+                            break;
+                    } // switch $facet[&#039;taxonomy&#039;]
+
+                    $es_query_args[&#039;facets&#039;][$label] = array(
+                        &#039;terms&#039; =&gt; array(
+                            &#039;field&#039; =&gt; $field . &#039;.slug&#039;,
+                            &#039;size&#039; =&gt; $facet[&#039;count&#039;],
+                        ),
+                    );
+
+                    break;
+
+                case &#039;post_type&#039;:
+                    $es_query_args[&#039;facets&#039;][$label] = array(
+                        &#039;terms&#039; =&gt; array(
+                            &#039;field&#039; =&gt; &#039;post_type&#039;,
+                            &#039;size&#039; =&gt; $facet[&#039;count&#039;],
+                        ),
+                    );
+
+                    break;
+
+                case &#039;date_histogram&#039;:
+                    $es_query_args[&#039;facets&#039;][$label] = array(
+                        &#039;date_histogram&#039; =&gt; array(
+                            &#039;interval&#039; =&gt; $facet[&#039;interval&#039;],
+                            &#039;field&#039;    =&gt; ( ! empty( $facet[&#039;field&#039;] ) &amp;&amp; &#039;post_date_gmt&#039; == $facet[&#039;field&#039;] ) ? &#039;date_gmt&#039; : &#039;date&#039;,
+                            &#039;size&#039;     =&gt; $facet[&#039;count&#039;],
+                        ),
+                    );
+
+                    break;
+            }
+        }
+    }
+
+	// Aggregations
+	if ( ! empty( $args[&#039;aggregations&#039;] ) ) {
+		$max_aggregations_count = 100;
+
+		foreach ( (array) $args[&#039;aggregations&#039;] as $label =&gt; $aggregation ) {
+			switch ( $aggregation[&#039;type&#039;] ) {
+
+				case &#039;taxonomy&#039;:
+					switch ( $aggregation[&#039;taxonomy&#039;] ) {
+
+						case &#039;post_tag&#039;:
+							$field = &#039;tag&#039;;
+							break;
+
+						case &#039;category&#039;:
+							$field = &#039;category&#039;;
+							break;
+
+						default:
+							$field = &#039;taxonomy.&#039; . $aggregation[&#039;taxonomy&#039;];
+							break;
+					} // switch $aggregation[&#039;taxonomy&#039;]
+
+					$es_query_args[&#039;aggregations&#039;][ $label ] = array(
+						&#039;terms&#039; =&gt; array(
+							&#039;field&#039; =&gt; $field . &#039;.slug&#039;,
+							&#039;size&#039; =&gt; min( (int) $aggregation[&#039;count&#039;], $max_aggregations_count ),
+						),
+					);
+
+					break;
+
+				case &#039;post_type&#039;:
+					$es_query_args[&#039;aggregations&#039;][ $label ] = array(
+						&#039;terms&#039; =&gt; array(
+							&#039;field&#039; =&gt; &#039;post_type&#039;,
+							&#039;size&#039; =&gt; min( (int) $aggregation[&#039;count&#039;], $max_aggregations_count ),
+						),
+					);
+
+					break;
+
+				case &#039;date_histogram&#039;:
+					$es_query_args[&#039;aggregations&#039;][ $label ] = array(
+						&#039;date_histogram&#039; =&gt; array(
+							&#039;interval&#039; =&gt; $aggregation[&#039;interval&#039;],
+							&#039;field&#039;    =&gt; ( ! empty( $aggregation[&#039;field&#039;] ) &amp;&amp; &#039;post_date_gmt&#039; == $aggregation[&#039;field&#039;] ) ? &#039;date_gmt&#039; : &#039;date&#039;,
+						),
+					);
+
+					break;
+			}
+		}
+	}
+
+	return $es_query_args;
+}
+</code></pre>
+            </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="files/vip-helpers-vip-elasticsearch.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+</body>
+</html>

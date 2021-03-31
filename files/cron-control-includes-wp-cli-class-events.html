@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VIP Go mu-plugins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+            <script src="js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">VIP Go mu-plugins</a><span class="title-separator">/</span>mu-plugins</h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+        
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/automattic.html"><abbr title="\Automattic">Automattic</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/automattic-wp.html"><abbr title="\Automattic\WP">WP</abbr></a></li>
+                                            <li><a href="namespaces/automattic-vip.html"><abbr title="\Automattic\VIP">VIP</abbr></a></li>
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/tubalmartin.html"><abbr title="\tubalmartin">tubalmartin</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/tubalmartin-cssmin.html"><abbr title="\tubalmartin\CssMin">CssMin</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/VIP.html"><abbr title="\VIP">VIP</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/a8c.html"><abbr title="\a8c">a8c</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/a8c-Cron.html"><abbr title="\a8c\Cron">Cron</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Http.html"><abbr title="\Http">Http</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Http-Concat.html"><abbr title="\Http\Concat">Concat</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/ES.html"><abbr title="\ES">ES</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/ES-WP.html"><abbr title="\ES\WP">WP</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/wp.html"><abbr title="\wp">wp</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/wp-cli.html"><abbr title="\wp\cli">cli</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="hooks/hooks.html">Hooks</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">class-events.php</h2>
+
+            <p class="phpdocumentor-summary">Manage events via WP-CLI</p>
+
+    <section class="phpdocumentor-description"></section>
+
+
+
+
+
+
+<h3 id="interfaces_class_traits">
+    Interfaces, Classes and Traits
+    <a href="#interfaces_class_traits" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+    
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Automattic-WP-Cron-Control-CLI-Events.html"><abbr title="\Automattic\WP\Cron_Control\CLI\Events">Events</abbr></a></dt>
+        <dd>Manage Cron Control&#039;s data</dd>
+    
+    </dl>
+
+
+
+
+
+        
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/**
+ * Manage events via WP-CLI
+ *
+ * @package a8c_Cron_Control
+ */
+
+namespace Automattic\WP\Cron_Control\CLI;
+
+/**
+ * Manage Cron Control&#039;s data
+ */
+class Events extends \WP_CLI_Command {
+	/**
+	 * List cron events
+	 *
+	 * Intentionally bypasses caching to ensure latest data is shown
+	 *
+	 * @subcommand list
+	 * @synopsis [--status=&lt;pending|completed&gt;] [--page=&lt;page&gt;] [--limit=&lt;limit&gt;] [--format=&lt;format&gt;]
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 */
+	public function list_events( $args, $assoc_args ) {
+		$events = $this-&gt;get_events( $args, $assoc_args );
+
+		// Show the event count and abort. Works with --status flag.
+		if ( isset( $assoc_args[&#039;format&#039;] ) &amp;&amp; &#039;count&#039; === $assoc_args[&#039;format&#039;] ) {
+			\WP_CLI::log( $events[&#039;total_items&#039;] );
+
+			return;
+		}
+
+		// Prevent one from requesting a page that doesn&#039;t exist.
+		// Shouldn&#039;t error when first page is requested, though, as that is handled below and is an odd behaviour otherwise.
+		if ( $events[&#039;page&#039;] &gt; $events[&#039;total_pages&#039;] &amp;&amp; $events[&#039;page&#039;] &gt; 1 ) {
+			\WP_CLI::error( __( &#039;Invalid page requested&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		// Output in the requested format.
+		if ( isset( $assoc_args[&#039;format&#039;] ) &amp;&amp; &#039;ids&#039; === $assoc_args[&#039;format&#039;] ) {
+			echo implode( &#039; &#039;, wp_list_pluck( $events[&#039;items&#039;], &#039;ID&#039; ) );
+		} else {
+			// Lest someone think the `completed` record should be...complete.
+			if ( isset( $assoc_args[&#039;status&#039;] ) &amp;&amp; &#039;completed&#039; === $assoc_args[&#039;status&#039;] ) {
+				\WP_CLI::warning( __( &#039;Entries are purged automatically, so this cannot be relied upon as a record of past event execution.&#039;, &#039;automattic-cron-control&#039; ) );
+			}
+
+			// Not much to do.
+			if ( 0 === $events[&#039;total_items&#039;] || empty( $events[&#039;items&#039;] ) ) {
+				\WP_CLI::warning( __( &#039;No events to display&#039;, &#039;automattic-cron-control&#039; ) );
+				return;
+			}
+
+			// Prepare events for display.
+			$events_for_display      = $this-&gt;format_events( $events[&#039;items&#039;] );
+			$total_events_to_display = count( $events_for_display );
+
+			// Count, noting if showing fewer than all.
+			if ( $events[&#039;total_items&#039;] &lt;= $total_events_to_display ) {
+				/* translators: 1: Number of events to display */
+				\WP_CLI::log( sprintf( _n( &#039;Displaying %s entry&#039;, &#039;Displaying all %s entries&#039;, $total_events_to_display, &#039;automattic-cron-control&#039; ), number_format_i18n( $total_events_to_display ) ) );
+			} else {
+				/* translators: 1: Entries on this page, 2: Total entries, 3: Current page, 4: Total pages */
+				\WP_CLI::log( sprintf( __( &#039;Displaying %1$s of %2$s entries, page %3$s of %4$s&#039;, &#039;automattic-cron-control&#039; ), number_format_i18n( $total_events_to_display ), number_format_i18n( $events[&#039;total_items&#039;] ), number_format_i18n( $events[&#039;page&#039;] ), number_format_i18n( $events[&#039;total_pages&#039;] ) ) );
+			}
+
+			$format = &#039;table&#039;;
+			if ( isset( $assoc_args[&#039;format&#039;] ) ) {
+				$format = $assoc_args[&#039;format&#039;];
+			}
+
+			\WP_CLI\Utils\format_items(
+				$format,
+				$events_for_display,
+				array(
+					&#039;ID&#039;,
+					&#039;action&#039;,
+					&#039;instance&#039;,
+					&#039;next_run_gmt&#039;,
+					&#039;next_run_relative&#039;,
+					&#039;last_updated_gmt&#039;,
+					&#039;recurrence&#039;,
+					&#039;internal_event&#039;,
+					&#039;schedule_name&#039;,
+					&#039;event_args&#039;,
+				)
+			);
+		}
+	}
+
+	/**
+	 * Remove events
+	 *
+	 * @subcommand delete
+	 * @synopsis [--event_id=&lt;event_id&gt;] [--action=&lt;action&gt;] [--completed]
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 */
+	public function delete_events( $args, $assoc_args ) {
+		// Remove a specific event.
+		if ( isset( $assoc_args[&#039;event_id&#039;] ) ) {
+			$this-&gt;delete_event_by_id( $args, $assoc_args );
+			return;
+		}
+
+		// Remove all events with a given action.
+		if ( isset( $assoc_args[&#039;action&#039;] ) ) {
+			$this-&gt;delete_event_by_action( $args, $assoc_args );
+			return;
+		}
+
+		// Remove all completed events.
+		if ( isset( $assoc_args[&#039;completed&#039;] ) ) {
+			$this-&gt;delete_completed_events( $args, $assoc_args );
+			return;
+		}
+
+		\WP_CLI::error( __( &#039;Specify something to delete, or see the `cron-control-fixers` command to remove all data.&#039;, &#039;automattic-cron-control&#039; ) );
+	}
+
+	/**
+	 * Run an event given an ID
+	 *
+	 * @subcommand run
+	 * @synopsis &lt;event_id&gt;
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 */
+	public function run_event( $args, $assoc_args ) {
+		// Validate ID.
+		if ( ! is_numeric( $args[0] ) ) {
+			\WP_CLI::error( __( &#039;Specify the ID of an event to run&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		// Retrieve information needed to execute event.
+		$event = \Automattic\WP\Cron_Control\get_event_by_id( $args[0] );
+
+		if ( ! is_object( $event ) ) {
+			/* translators: 1: Event ID */
+			\WP_CLI::error( sprintf( __( &#039;Failed to locate event %d. Please confirm that the entry exists and that the ID is that of an event.&#039;, &#039;automattic-cron-control&#039; ), $args[0] ) );
+		}
+
+		/* translators: 1: Event ID, 2: Event action, 3. Event instance */
+		\WP_CLI::log( sprintf( __( &#039;Found event %1$d with action `%2$s` and instance identifier `%3$s`&#039;, &#039;automattic-cron-control&#039; ), $args[0], $event-&gt;action, $event-&gt;instance ) );
+
+		$now = time();
+		if ( $event-&gt;timestamp &gt; $now ) {
+			/* translators: 1: Time in UTC, 2: Human time diff */
+			\WP_CLI::warning( sprintf( __( &#039;This event is not scheduled to run until %1$s UTC (%2$s)&#039;, &#039;automattic-cron-control&#039; ), date_i18n( TIME_FORMAT, $event-&gt;timestamp ), $this-&gt;calculate_interval( $event-&gt;timestamp - $now ) ) );
+		}
+
+		\WP_CLI::confirm( sprintf( __( &#039;Run this event?&#039;, &#039;automattic-cron-control&#039; ) ) );
+
+		// Environment preparation.
+		\Automattic\WP\Cron_Control\set_doing_cron();
+
+		// Run the event!
+		$run = \Automattic\WP\Cron_Control\run_event( $event-&gt;timestamp, $event-&gt;action_hashed, $event-&gt;instance, true );
+
+		// Output based on run attempt.
+		if ( is_array( $run ) ) {
+			\WP_CLI::success( $run[&#039;message&#039;] );
+		} elseif ( is_wp_error( $run ) ) {
+			\WP_CLI::error( $run-&gt;get_error_message() );
+		} else {
+			\WP_CLI::error( __( &#039;Failed to run event&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+	}
+
+	/**
+	 * Retrieve list of events, and related data, for a given request
+	 *
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 * @return array
+	 */
+	private function get_events( $args, $assoc_args ) {
+		// Accept a status argument, with a default.
+		$status = &#039;pending&#039;;
+		if ( isset( $assoc_args[&#039;status&#039;] ) ) {
+			$status = $assoc_args[&#039;status&#039;];
+		}
+
+		// Convert to status used by Event Store.
+		$event_status = null;
+		switch ( $status ) {
+			case &#039;pending&#039;:
+				$event_status = \Automattic\WP\Cron_Control\Events_Store::STATUS_PENDING;
+				break;
+
+			case &#039;running&#039;:
+				$event_status = \Automattic\WP\Cron_Control\Events_Store::STATUS_RUNNING;
+				break;
+
+			case &#039;completed&#039;:
+				$event_status = \Automattic\WP\Cron_Control\Events_Store::STATUS_COMPLETED;
+				break;
+		}
+
+		if ( is_null( $event_status ) ) {
+			\WP_CLI::error( __( &#039;Invalid status specified&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		unset( $status );
+
+		// Total to show.
+		$limit = 25;
+		if ( isset( $assoc_args[&#039;limit&#039;] ) &amp;&amp; is_numeric( $assoc_args[&#039;limit&#039;] ) ) {
+			$limit = max( 1, min( absint( $assoc_args[&#039;limit&#039;] ), 500 ) );
+		}
+
+		// Pagination.
+		$page = 1;
+		if ( isset( $assoc_args[&#039;page&#039;] ) &amp;&amp; is_numeric( $assoc_args[&#039;page&#039;] ) ) {
+			$page = absint( $assoc_args[&#039;page&#039;] );
+		}
+
+		$offset = absint( ( $page - 1 ) * $limit );
+
+		$items = \Automattic\WP\Cron_Control\get_events(
+			array(
+				&#039;status&#039;     =&gt; $event_status,
+				&#039;quantity&#039;   =&gt; $limit,
+				&#039;page&#039;       =&gt; $page,
+				&#039;force_sort&#039; =&gt; true,
+			)
+		);
+
+		// Bail if we don&#039;t get results!
+		if ( ! is_array( $items ) ) {
+			\WP_CLI::error( __( &#039;Problem retrieving events&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		// Include totals for pagination etc.
+		$total_items = \Automattic\WP\Cron_Control\count_events_by_status( $event_status );
+		$total_pages = ceil( $total_items / $limit );
+
+		return compact( &#039;limit&#039;, &#039;page&#039;, &#039;offset&#039;, &#039;items&#039;, &#039;total_items&#039;, &#039;total_pages&#039; );
+	}
+
+	/**
+	 * Format event data into something human-readable
+	 *
+	 * @param array $events Array of events to reformat.
+	 * @return array
+	 */
+	private function format_events( $events ) {
+		$formatted_events = array();
+
+		// Reformat events.
+		foreach ( $events as $event ) {
+			$row = array(
+				&#039;ID&#039;                =&gt; $event-&gt;ID,
+				&#039;action&#039;            =&gt; $event-&gt;action,
+				&#039;instance&#039;          =&gt; $event-&gt;instance,
+				&#039;next_run_gmt&#039;      =&gt; date_i18n( TIME_FORMAT, $event-&gt;timestamp ),
+				&#039;next_run_relative&#039; =&gt; &#039;&#039;,
+				&#039;last_updated_gmt&#039;  =&gt; date_i18n( TIME_FORMAT, strtotime( $event-&gt;last_modified ) ),
+				&#039;recurrence&#039;        =&gt; __( &#039;Non-repeating&#039;, &#039;automattic-cron-control&#039; ),
+				&#039;internal_event&#039;    =&gt; &#039;&#039;,
+				&#039;schedule_name&#039;     =&gt; __( &#039;n/a&#039;, &#039;automattic-cron-control&#039; ),
+				&#039;event_args&#039;        =&gt; &#039;&#039;,
+			);
+
+			if ( \Automattic\WP\Cron_Control\Events_Store::STATUS_PENDING === $event-&gt;status ) {
+				$row[&#039;next_run_relative&#039;] = $this-&gt;calculate_interval( $event-&gt;timestamp - time() );
+			}
+
+			$row[&#039;internal_event&#039;] = \Automattic\WP\Cron_Control\is_internal_event( $event-&gt;action ) ? __( &#039;true&#039;, &#039;automattic-cron-control&#039; ) : &#039;&#039;;
+
+			$row[&#039;event_args&#039;] = maybe_serialize( $event-&gt;args );
+
+			if ( \Automattic\WP\Cron_Control\Events_Store::STATUS_COMPLETED === $event-&gt;status ) {
+				$instance        = md5( $row[&#039;event_args&#039;] );
+				$row[&#039;instance&#039;] = &quot;{$instance} - {$row[&#039;instance&#039;]}&quot;;
+			}
+
+			if ( isset( $event-&gt;interval ) &amp;&amp; $event-&gt;interval ) {
+				$row[&#039;recurrence&#039;] = $this-&gt;calculate_interval( $event-&gt;interval );
+			}
+
+			if ( isset( $event-&gt;schedule ) &amp;&amp; $event-&gt;schedule ) {
+				$row[&#039;schedule_name&#039;] = $event-&gt;schedule;
+			}
+
+			$formatted_events[] = $row;
+		}
+
+		// Sort results.
+		if ( ! empty( $formatted_events ) ) {
+			usort( $formatted_events, array( $this, &#039;sort_events&#039; ) );
+		}
+
+		return $formatted_events;
+	}
+
+	/**
+	 * Sort events by timestamp, then action name
+	 *
+	 * @param array $first First event to compare.
+	 * @param array $second Second event to compare.
+	 * @return int
+	 */
+	private function sort_events( $first, $second ) {
+		// Timestamp is usually sufficient.
+		if ( isset( $first[&#039;next_run_gmt&#039;] ) ) {
+			$first_timestamp  = strtotime( $first[&#039;next_run_gmt&#039;] );
+			$second_timestamp = strtotime( $second[&#039;next_run_gmt&#039;] );
+		} elseif ( isset( $first[&#039;timestamp&#039;] ) ) {
+			$first_timestamp  = $first[&#039;timestamp&#039;];
+			$second_timestamp = $second[&#039;timestamp&#039;];
+		} else {
+			return 0;
+		}
+
+		if ( $first_timestamp !== $second_timestamp ) {
+			return $first_timestamp - $second_timestamp;
+		}
+
+		// If timestamps are equal, consider action.
+		return strnatcasecmp( $first[&#039;action&#039;], $second[&#039;action&#039;] );
+	}
+
+	/**
+	 * Convert a time interval into human-readable format.
+	 *
+	 * Similar to WordPress&#039; built-in `human_time_diff()` but returns two time period chunks instead of just one.
+	 *
+	 * Borrowed from WP-CLI
+	 *
+	 * @param int $since An interval of time in seconds.
+	 * @return string
+	 */
+	private function calculate_interval( $since ) {
+		// Borrowed from WP-CLI. @codingStandardsIgnoreStart
+		if ( $since &lt;= 0 ) {
+			return &#039;now&#039;;
+		}
+
+		$since = absint( $since );
+
+		// array of time period chunks
+		$chunks = array(
+			array( 60 * 60 * 24 * 365 , \_n_noop( &#039;%s year&#039;, &#039;%s years&#039; ) ),
+			array( 60 * 60 * 24 * 30 , \_n_noop( &#039;%s month&#039;, &#039;%s months&#039; ) ),
+			array( 60 * 60 * 24 * 7, \_n_noop( &#039;%s week&#039;, &#039;%s weeks&#039; ) ),
+			array( 60 * 60 * 24 , \_n_noop( &#039;%s day&#039;, &#039;%s days&#039; ) ),
+			array( 60 * 60 , \_n_noop( &#039;%s hour&#039;, &#039;%s hours&#039; ) ),
+			array( 60 , \_n_noop( &#039;%s minute&#039;, &#039;%s minutes&#039; ) ),
+			array(  1 , \_n_noop( &#039;%s second&#039;, &#039;%s seconds&#039; ) ),
+		);
+
+		// we only want to output two chunks of time here, eg:
+		// x years, xx months
+		// x days, xx hours
+		// so there&#039;s only two bits of calculation below:
+
+		// step one: the first chunk
+		for ( $i = 0, $j = count( $chunks ); $i &lt; $j; $i++ ) {
+			$seconds = $chunks[$i][0];
+			$name = $chunks[$i][1];
+
+			// finding the biggest chunk (if the chunk fits, break)
+			if ( ( $count = floor( $since / $seconds ) ) != 0 ){
+				break;
+			}
+		}
+
+		// set output var
+		$output = sprintf( \_n( $name[0], $name[1], $count ), $count );
+
+		// step two: the second chunk
+		if ( $i + 1 &lt; $j ) {
+			$seconds2 = $chunks[$i + 1][0];
+			$name2    = $chunks[$i + 1][1];
+
+			if ( ( $count2 = floor( ( $since - ( $seconds * $count ) ) / $seconds2 ) ) != 0 ) {
+				// add to output var
+				$output .= &#039; &#039; . sprintf( \_n( $name2[0], $name2[1], $count2 ), $count2 );
+			}
+		}
+
+		return $output;
+		// Borrowed from WP-CLI. @codingStandardsIgnoreEnd
+	}
+
+	/**
+	 * Delete an event by ID
+	 *
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 */
+	private function delete_event_by_id( $args, $assoc_args ) {
+		$jid = absint( $assoc_args[&#039;event_id&#039;] );
+
+		// Validate ID.
+		if ( ! $jid ) {
+			\WP_CLI::error( __( &#039;Invalid event ID&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		\WP_CLI::log( __( &#039;Locating event...&#039;, &#039;automattic-cron-control&#039; ) . &quot;\n&quot; );
+
+		// Look up full event object.
+		$event = \Automattic\WP\Cron_Control\get_event_by_id( $jid );
+
+		if ( is_object( $event ) ) {
+			// Warning about Internal Events.
+			if ( \Automattic\WP\Cron_Control\is_internal_event( $event-&gt;action ) ) {
+				\WP_CLI::warning( __( &#039;This is an event created by the Cron Control plugin. It will recreated automatically.&#039;, &#039;automattic-cron-control&#039; ) );
+			}
+
+			/* translators: 1: Event execution time in UTC */
+			\WP_CLI::log( sprintf( __( &#039;Execution time: %s UTC&#039;, &#039;automattic-cron-control&#039; ), date_i18n( TIME_FORMAT, $event-&gt;timestamp ) ) );
+			/* translators: 1: Event action */
+			\WP_CLI::log( sprintf( __( &#039;Action: %s&#039;, &#039;automattic-cron-control&#039; ), $event-&gt;action ) );
+			/* translators: 1: Event instance */
+			\WP_CLI::log( sprintf( __( &#039;Instance identifier: %s&#039;, &#039;automattic-cron-control&#039; ), $event-&gt;instance ) );
+			\WP_CLI::log( &#039;&#039; );
+			\WP_CLI::confirm( sprintf( __( &#039;Are you sure you want to delete this event?&#039;, &#039;automattic-cron-control&#039; ) ) );
+
+			// Try to delete the item and provide some relevant output.
+			\Automattic\WP\Cron_Control\_suspend_event_creation();
+			$deleted = \Automattic\WP\Cron_Control\delete_event_by_id( $event-&gt;ID, true );
+			\Automattic\WP\Cron_Control\_resume_event_creation();
+
+			if ( false === $deleted ) {
+				/* translators: 1: Event ID */
+				\WP_CLI::error( sprintf( __( &#039;Failed to delete event %d&#039;, &#039;automattic-cron-control&#039; ), $jid ) );
+			} else {
+				\Automattic\WP\Cron_Control\_flush_internal_caches();
+				/* translators: 1: Event ID */
+				\WP_CLI::success( sprintf( __( &#039;Removed event %d&#039;, &#039;automattic-cron-control&#039; ), $jid ) );
+				return;
+			}
+		}
+
+		/* translators: 1: Event ID */
+		\WP_CLI::error( sprintf( __( &#039;Failed to delete event %d. Please confirm that the entry exists and that the ID is that of an event.&#039;, &#039;automattic-cron-control&#039; ), $jid ) );
+	}
+
+	/**
+	 * Delete all events of the same action
+	 *
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 */
+	private function delete_event_by_action( $args, $assoc_args ) {
+		$action = $assoc_args[&#039;action&#039;];
+
+		// Validate entry.
+		if ( empty( $action ) ) {
+			\WP_CLI::error( __( &#039;Invalid action&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		// Warning about Internal Events.
+		if ( \Automattic\WP\Cron_Control\is_internal_event( $action ) ) {
+			\WP_CLI::warning( __( &#039;This is an event created by the Cron Control plugin. It will recreated automatically.&#039;, &#039;automattic-cron-control&#039; ) );
+		}
+
+		// Set defaults needed to gather all events.
+		$assoc_args[&#039;page&#039;]  = 1;
+		$assoc_args[&#039;limit&#039;] = 50;
+
+		// Gather events.
+		\WP_CLI::log( __( &#039;Gathering events...&#039;, &#039;automattic-cron-control&#039; ) );
+
+		$events_to_delete = array();
+
+		$events = $this-&gt;get_events( $args, $assoc_args );
+
+		/* translators: 1: Total event count */
+		\WP_CLI::log( sprintf( _n( &#039;Found %s event to check&#039;, &#039;Found %s events to check&#039;, $events[&#039;total_items&#039;], &#039;automattic-cron-control&#039; ), number_format_i18n( $events[&#039;total_items&#039;] ) ) );
+
+		/* translators: 1: Event action */
+		$search_progress = \WP_CLI\Utils\make_progress_bar( sprintf( __( &#039;Searching events for those with the action `%s`&#039;, &#039;automattic-cron-control&#039; ), $action ), $events[&#039;total_items&#039;] );
+
+		// Loop and pull out events to be deleted.
+		do {
+			if ( ! is_array( $events ) || empty( $events[&#039;items&#039;] ) ) {
+				break;
+			}
+
+			// Check events for those that should be deleted.
+			foreach ( $events[&#039;items&#039;] as $single_event ) {
+				if ( $single_event-&gt;action === $action ) {
+					$events_to_delete[] = (array) $single_event;
+				}
+
+				$search_progress-&gt;tick();
+			}
+
+			// Proceed to next batch.
+			$assoc_args[&#039;page&#039;]++;
+
+			if ( $assoc_args[&#039;page&#039;] &gt; $events[&#039;total_pages&#039;] ) {
+				break;
+			}
+
+			$events = $this-&gt;get_events( $args, $assoc_args );
+		} while ( $events[&#039;page&#039;] &lt;= $events[&#039;total_pages&#039;] );
+
+		$search_progress-&gt;finish();
+
+		\WP_CLI::log( &#039;&#039; );
+
+		// Nothing more to do.
+		if ( empty( $events_to_delete ) ) {
+			/* translators: 1: Event action */
+			\WP_CLI::error( sprintf( __( &#039;No events with action `%s` found&#039;, &#039;automattic-cron-control&#039; ), $action ) );
+		}
+
+		// List the items to remove.
+		$total_to_delete = count( $events_to_delete );
+
+		/* translators: 1: Event count, 2: Event action */
+		\WP_CLI::log( sprintf( _n( &#039;Found %1$s event with action `%2$s`:&#039;, &#039;Found %1$s events with action `%2$s`:&#039;, $total_to_delete, &#039;automattic-cron-control&#039; ), number_format_i18n( $total_to_delete ), $action ) );
+
+		if ( $total_to_delete &lt;= $assoc_args[&#039;limit&#039;] ) {
+			// Sort results.
+			if ( ! empty( $events_to_delete ) ) {
+				usort( $events_to_delete, array( $this, &#039;sort_events&#039; ) );
+			}
+
+			\WP_CLI\Utils\format_items(
+				&#039;table&#039;,
+				$events_to_delete,
+				array(
+					&#039;ID&#039;,
+					&#039;created&#039;,
+					&#039;last_modified&#039;,
+					&#039;timestamp&#039;,
+					&#039;instance&#039;,
+				)
+			);
+		} else {
+			/* translators: 1: Event count */
+			\WP_CLI::warning( sprintf( __( &#039;Events are not displayed as there are more than %s to remove&#039;, &#039;automattic-cron-control&#039; ), number_format_i18n( $assoc_args[&#039;limit&#039;] ) ) );
+		}
+
+		\WP_CLI::log( &#039;&#039; );
+		\WP_CLI::confirm( _n( &#039;Are you sure you want to delete this event?&#039;, &#039;Are you sure you want to delete these events?&#039;, $total_to_delete, &#039;automattic-cron-control&#039; ) );
+
+		// Remove the items.
+		$delete_progress = \WP_CLI\Utils\make_progress_bar( __( &#039;Deleting events&#039;, &#039;automattic-cron-control&#039; ), $total_to_delete );
+
+		$events_deleted       = array();
+		$events_deleted_count = 0;
+		$events_failed_delete = 0;
+
+		// Don&#039;t create new events while deleting events.
+		\Automattic\WP\Cron_Control\_suspend_event_creation();
+
+		foreach ( $events_to_delete as $event_to_delete ) {
+			$deleted = \Automattic\WP\Cron_Control\delete_event_by_id( $event_to_delete[&#039;ID&#039;], false );
+
+			$events_deleted[] = array(
+				&#039;ID&#039;      =&gt; $event_to_delete[&#039;ID&#039;],
+				&#039;deleted&#039; =&gt; false === $deleted ? &#039;no&#039; : &#039;yes&#039;,
+			);
+
+			if ( $deleted ) {
+				$events_deleted_count++;
+			} else {
+				$events_failed_delete++;
+			}
+
+			$delete_progress-&gt;tick();
+		}
+
+		$delete_progress-&gt;finish();
+
+		// When deletes succeed, sync internal caches.
+		if ( $events_deleted_count &gt; 0 ) {
+			\Automattic\WP\Cron_Control\_flush_internal_caches();
+		}
+
+		// New events can be created now that removal is complete.
+		\Automattic\WP\Cron_Control\_resume_event_creation();
+
+		// List the removed items.
+		\WP_CLI::log( &quot;\n&quot; . __( &#039;RESULTS:&#039;, &#039;automattic-cron-control&#039; ) );
+
+		if ( 1 === $total_to_delete &amp;&amp; 1 === $events_deleted_count ) {
+			/* translators: 1: Event ID */
+			\WP_CLI::success( sprintf( __( &#039;Deleted one event: %d&#039;, &#039;automattic-cron-control&#039; ), $events_deleted[0][&#039;ID&#039;] ) );
+		} else {
+			if ( $events_deleted_count === $total_to_delete ) {
+				/* translators: 1: Events deleted */
+				\WP_CLI::success( sprintf( __( &#039;Deleted %s events&#039;, &#039;automattic-cron-control&#039; ), number_format_i18n( $events_deleted_count ) ) );
+			} else {
+				/* translators: 1: Expected deleted-event count, 2: Actual deleted-event count */
+				\WP_CLI::warning( sprintf( __( &#039;Expected to delete %1$s events, but could only delete %2$s events. It\&#039;s likely that some events were executed while this command ran.&#039;, &#039;automattic-cron-control&#039; ), number_format_i18n( $total_to_delete ), number_format_i18n( $events_deleted_count ) ) );
+			}
+
+			// Limit just to failed deletes when many events are removed.
+			if ( count( $events_deleted ) &gt; $assoc_args[&#039;limit&#039;] ) {
+				$events_deleted = array_filter(
+					$events_deleted,
+					function( $event ) {
+						if ( &#039;no&#039; === $event[&#039;deleted&#039;] ) {
+							return $event;
+						} else {
+							return false;
+						}
+					}
+				);
+
+				if ( count( $events_deleted ) &gt; 0 ) {
+					\WP_CLI::log( &quot;\n&quot; . __( &#039;Events that couldn\&#039;t be deleted:&#039;, &#039;automattic-cron-control&#039; ) );
+				}
+			} else {
+				\WP_CLI::log( &quot;\n&quot; . __( &#039;Events deleted:&#039;, &#039;automattic-cron-control&#039; ) );
+			}
+
+			// Don&#039;t display a table if there&#039;s nothing to display.
+			if ( count( $events_deleted ) &gt; 0 ) {
+				\WP_CLI\Utils\format_items(
+					&#039;table&#039;,
+					$events_deleted,
+					array(
+						&#039;ID&#039;,
+						&#039;deleted&#039;,
+					)
+				);
+			}
+		}
+
+		return;
+	}
+
+	/**
+	 * Delete all completed events
+	 *
+	 * @param array $args Array of positional arguments.
+	 * @param array $assoc_args Array of flags.
+	 */
+	private function delete_completed_events( $args, $assoc_args ) {
+		$count = \Automattic\WP\Cron_Control\count_events_by_status( \Automattic\WP\Cron_Control\Events_Store::STATUS_COMPLETED );
+
+		/* translators: 1: Event count */
+		\WP_CLI::confirm( sprintf( _n( &#039;Found %s completed event to remove. Continue?&#039;, &#039;Found %s completed events to remove. Continue?&#039;, $count, &#039;automattic-cron-control&#039; ), number_format_i18n( $count ) ) );
+
+		\Automattic\WP\Cron_Control\Events_Store::instance()-&gt;purge_completed_events( false );
+
+		\WP_CLI::success( __( &#039;Entries removed&#039;, &#039;automattic-cron-control&#039; ) );
+	}
+}
+
+\WP_CLI::add_command( &#039;cron-control events&#039;, &#039;Automattic\WP\Cron_Control\CLI\Events&#039; );
+</code></pre>
+            </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="files/cron-control-includes-wp-cli-class-events.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+</body>
+</html>

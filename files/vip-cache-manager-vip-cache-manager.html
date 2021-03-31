@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VIP Go mu-plugins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+            <script src="js/prism.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.dispatchEvent(new HashChangeEvent('hashchange'));
+        });
+    </script>
+</head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">VIP Go mu-plugins</a><span class="title-separator">/</span>mu-plugins</h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+        
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                <h3 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/default.html"><abbr title="\">Global</abbr></a></h3>
+                                        <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/automattic.html"><abbr title="\Automattic">Automattic</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/automattic-wp.html"><abbr title="\Automattic\WP">WP</abbr></a></li>
+                                            <li><a href="namespaces/automattic-vip.html"><abbr title="\Automattic\VIP">VIP</abbr></a></li>
+                                    </ul>
+                            <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/tubalmartin.html"><abbr title="\tubalmartin">tubalmartin</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/tubalmartin-cssmin.html"><abbr title="\tubalmartin\CssMin">CssMin</abbr></a></li>
+                                    </ul>
+                        </section>
+
+        <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                    <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/VIP.html"><abbr title="\VIP">VIP</abbr></a></h3>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/a8c.html"><abbr title="\a8c">a8c</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/a8c-Cron.html"><abbr title="\a8c\Cron">Cron</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/Http.html"><abbr title="\Http">Http</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/Http-Concat.html"><abbr title="\Http\Concat">Concat</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/ES.html"><abbr title="\ES">ES</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/ES-WP.html"><abbr title="\ES\WP">WP</abbr></a></li>
+                            </ul>
+                                <h3 class="phpdocumentor-sidebar__root-package"><a href="packages/wp.html"><abbr title="\wp">wp</abbr></a></h3>
+                        <ul class="phpdocumentor-list">
+                                    <li><a href="packages/wp-cli.html"><abbr title="\wp\cli">cli</abbr></a></li>
+                            </ul>
+                        </section>
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="hooks/hooks.html">Hooks</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+    </ul>
+
+    <article class="phpdocumentor-element -file">
+        <h2 class="phpdocumentor-content__title">vip-cache-manager.php</h2>
+
+        
+
+
+
+
+
+
+<h3 id="interfaces_class_traits">
+    Interfaces, Classes and Traits
+    <a href="#interfaces_class_traits" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+    
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/WPCOM-VIP-Cache-Manager.html"><abbr title="\WPCOM_VIP_Cache_Manager">WPCOM_VIP_Cache_Manager</abbr></a></dt>
+        <dd></dd>
+    
+    </dl>
+
+
+
+
+
+        
+
+        
+                    <h3 class="phpdocumentor-elements__header" id="source-code">
+                Source code
+                <a href="#source-code" class="headerlink"><i class="fas fa-link"></i></a>
+            </h3>
+            <pre id="source-view" tabindex="-1" class="language-php line-numbers linkable-line-numbers"><code>&lt;?php
+/*
+Plugin name: Cache Manager
+Description: Automatically clears the Varnish cache when necessary
+Author: Automattic
+Author URI: http://automattic.com/
+Version: 1.1
+License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+*/
+
+require_once( __DIR__ . &#039;/api.php&#039; );
+
+class WPCOM_VIP_Cache_Manager {
+	const MAX_PURGE_URLS         = 100;
+	const MAX_PURGE_BATCH_URLS   = 4000;
+	const MAX_BAN_URLS           = 10;
+	const CACHE_PURGE_BATCH_SIZE = 2000;
+
+	private $ban_urls = array();
+	private $purge_urls = array();
+	private $site_cache_purged = false;
+
+	static public function instance() {
+		static $instance = false;
+		if ( ! $instance ) {
+			$instance = new WPCOM_VIP_Cache_Manager();
+		}
+		return $instance;
+	}
+
+	public function __construct() {
+		add_action( &#039;init&#039;, array( $this, &#039;init&#039; ) );
+	}
+
+	public function init() {
+		// Cache purging disabled, bail
+		if ( ( defined( &#039;VIP_GO_DISABLE_CACHE_PURGING&#039; ) &amp;&amp; true === VIP_GO_DISABLE_CACHE_PURGING ) ) {
+			return;
+		}
+
+		if ( $this-&gt;can_purge_cache() &amp;&amp; isset( $_GET[&#039;cm_purge_all&#039;] ) &amp;&amp; check_admin_referer( &#039;manual_purge&#039; ) ) {
+			$this-&gt;purge_site_cache();
+			\Automattic\VIP\Stats\send_pixel( [
+				&#039;vip-cache-action&#039; =&gt; &#039;dashboard-site-purge&#039;,
+				&#039;vip-cache-url-purge-by-site&#039;   =&gt; VIP_GO_APP_ID,
+			] );
+			add_action( &#039;admin_notices&#039; , array( $this, &#039;manual_purge_message&#039; ) );
+		}
+
+		add_action( &#039;clean_post_cache&#039;, array( $this, &#039;queue_post_purge&#039; ) );
+		add_action( &#039;clean_term_cache&#039;, array( $this, &#039;queue_terms_purges&#039; ), 10, 2 );
+		add_action( &#039;switch_theme&#039;, array( $this, &#039;purge_site_cache&#039; ) );
+		add_action( &#039;post_updated&#039;, array( $this, &#039;queue_old_permalink_purge&#039; ), 10, 3 );
+
+		add_action( &#039;activity_box_end&#039;, array( $this, &#039;get_manual_purge_link&#039; ), 100 );
+
+		add_action( &#039;shutdown&#039;, array( $this, &#039;execute_purges&#039; ) );
+		add_action( &#039;admin_bar_menu&#039;, [ $this, &#039;admin_bar_callback&#039; ], 100, 1 );
+		add_action( &#039;wp_enqueue_scripts&#039;, [ $this, &#039;button_enqueue_scripts&#039; ] );
+		add_action( &#039;wp_ajax_vip_purge_page_cache&#039;, [ $this, &#039;ajax_vip_purge_page_cache&#039; ] );
+	}
+
+	public function get_queued_purge_urls() {
+		return $this-&gt;purge_urls;
+	}
+
+	public function clear_queued_purge_urls() {
+		$this-&gt;purge_urls = [];
+	}
+
+	/**
+	 * Display a button to purge the cache for the specific URL and its assets
+	 *
+	 * @return void
+	 */
+	public function admin_bar_callback( WP_Admin_Bar $admin_bar ) {
+		if ( is_admin() || ! current_user_can( &#039;manage_options&#039; ) ) {
+			return;
+		}
+
+		$admin_bar-&gt;add_menu(
+			[
+				&#039;id&#039;     =&gt; &#039;vip-purge-page&#039;,
+				&#039;parent&#039; =&gt; null,
+				&#039;group&#039;  =&gt; null,
+				&#039;title&#039;  =&gt; &#039;Flush Cache for Page&#039;,
+				&#039;href&#039;   =&gt; &#039;#&#039;,
+				&#039;meta&#039;   =&gt; [
+					&#039;title&#039; =&gt; &#039;Flush Page cache for this page and its assets&#039;,
+				],
+			]
+		);
+	}
+
+	/**
+	 * Enqueue the button for users who have the needed caps.
+	 *
+	 * @return void
+	 */
+	public function button_enqueue_scripts() {
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			return;
+		}
+
+		wp_enqueue_script( &#039;purge-page-cache-btn&#039;, plugins_url( &#039;/js/admin-bar.js&#039;, __FILE__ ), [], &#039;1.1&#039;, true );
+		wp_localize_script( &#039;purge-page-cache-btn&#039;, &#039;VIPPageFlush&#039;, [
+			&#039;nonce&#039; =&gt; wp_create_nonce( &#039;purge-page&#039; ),
+			&#039;ajaxurl&#039; =&gt; add_query_arg( [ &#039;action&#039; =&gt; &#039;vip_purge_page_cache&#039; ], admin_url( &#039;admin-ajax.php&#039; ) ),
+		] );
+	}
+
+	/**
+	 * AJAX callback that performs basic security checks and payload validation and queues urls for the purge.
+	 *
+	 * @return void
+	 */
+	public function ajax_vip_purge_page_cache() {
+		$req = json_decode( file_get_contents( &#039;php://input&#039; ) );
+
+		if ( json_last_error() ) {
+			\Automattic\VIP\Stats\send_pixel( [
+				&#039;vip-cache-url-purge-status&#039; =&gt; &#039;bad-payload&#039;,
+			] );
+			wp_send_json_error( [ &#039;error&#039; =&gt; &#039;Malformed payload&#039; ], 400 );
+		}
+
+		if ( ! current_user_can( &#039;manage_options&#039; ) ) {
+			\Automattic\VIP\Stats\send_pixel( [
+				&#039;vip-cache-url-purge-status&#039; =&gt; &#039;deny-permissions&#039;,
+			] );
+
+			wp_send_json_error( [ &#039;error&#039; =&gt; &#039;Unauthorized&#039; ], 403 );
+		}
+
+		if ( ! ( isset( $req-&gt;nonce ) &amp;&amp; wp_verify_nonce( $req-&gt;nonce, &#039;purge-page&#039; ) ) ) {
+			\Automattic\VIP\Stats\send_pixel( [
+				&#039;vip-cache-url-purge-status&#039; =&gt; &#039;deny-nonce&#039;,
+			] );
+
+			wp_send_json_error( [ &#039;error&#039; =&gt; &#039;Unauthorized&#039; ], 403 );
+		}
+
+		$urls = is_array( $req-&gt;urls ) &amp;&amp; ! empty( $req-&gt;urls ) ? $req-&gt;urls : [];
+
+		if ( empty( $urls ) ) {
+			\Automattic\VIP\Stats\send_pixel( [
+				&#039;vip-cache-url-purge-status&#039; =&gt; &#039;deny-no-urls&#039;,
+			] );
+
+			wp_send_json_error( [ &#039;error&#039; =&gt; &#039;No URLs&#039; ], 400 );
+		}
+
+		// URLs are validated in queue_purge_url.
+		foreach ( $urls as $url_to_purge ) {
+			$this-&gt;queue_purge_url( $url_to_purge );
+		}
+
+		\Automattic\VIP\Stats\send_pixel( [
+			&#039;vip-cache-action&#039; =&gt; &#039;user-url-purge&#039;,
+			&#039;vip-cache-url-purge-by-site&#039;   =&gt; VIP_GO_APP_ID,
+			&#039;vip-cache-url-purge-status&#039; =&gt; &#039;success&#039;,
+		] );
+
+		// Optimistically tell that the operation is successful and bail.
+		wp_send_json_success(
+			[
+				&#039;result&#039; =&gt; sprintf( &#039;✅ %d URLS purged&#039;, count( $urls ) ),
+			]
+		);
+	}
+
+	public function get_manual_purge_link() {
+		if ( ! $this-&gt;can_purge_cache() ) {
+			return;
+		}
+
+		echo &quot;&lt;hr&gt;&quot;;
+
+		$url = wp_nonce_url( admin_url( &#039;?cm_purge_all&#039; ), &#039;manual_purge&#039; );
+
+		$button_html =  esc_html__( &#039;Press the button below to force a purge of the entire page cache. If you are sandboxed, it will purge the sandbox cache by default. &#039; );
+		$button_html .= &#039;&lt;strong&gt;&#039; . esc_html__( &#039;This button is visible to Automatticans only.&#039; ) . &#039;&lt;/strong&gt;&#039;;
+		$button_html .= &#039;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;button&quot;&gt;&lt;a href=&quot;&#039; . esc_url( $url ) . &#039;&quot;&gt;&lt;strong&gt;&#039;;
+		$button_html .= esc_html__( &#039;Purge Page Cache&#039; );
+		$button_html .= &#039;&lt;/strong&gt;&lt;/a&gt;&lt;/span&gt;&#039;;
+
+		echo &quot;&lt;p&gt;$button_html&lt;/p&gt;\n&quot;;
+	}
+
+	public function manual_purge_message() {
+		echo &quot;&lt;div id=&#039;message&#039; class=&#039;updated fade&#039;&gt;&lt;p&gt;&lt;strong&gt;&quot;.__(&#039;Varnish cache purged!&#039;, &#039;varnish-http-purge&#039;).&quot;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&quot;;
+	}
+
+	public function curl_multi( $requests ) {
+		$curl_multi = curl_multi_init();
+
+		if ( defined( &#039;PURGE_BATCH_SERVER_URL&#039; ) &amp;&amp; defined( &#039;PURGE_SERVER_TYPE&#039; ) &amp;&amp; &#039;mangle&#039; === PURGE_SERVER_TYPE ) {
+			$req_chunks = array_chunk( $requests, self::CACHE_PURGE_BATCH_SIZE, true );
+			foreach ( $req_chunks as $req_chunk ) {
+				$req_array = array();
+				foreach ( $req_chunk as $req ) {
+					$req_array[] = array(
+						&#039;group&#039; =&gt; &#039;vip-go&#039;,
+						&#039;scope&#039; =&gt; &#039;global&#039;,
+						&#039;type&#039;  =&gt; $req[&#039;method&#039;],
+						&#039;uri&#039;   =&gt; $req[&#039;host&#039;] . $req[&#039;uri&#039;],
+					);
+				}
+				$data = json_encode( $req_array );
+
+				$curl = curl_init( constant( &#039;PURGE_BATCH_SERVER_URL&#039; ) );
+
+				curl_setopt( $curl, CURLOPT_HEADER, false );
+				curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
+				curl_setopt( $curl, CURLOPT_TIMEOUT, 5 );
+				curl_setopt( $curl, CURLOPT_POST, true );
+
+				if ( 500 &lt; strlen( $data ) ) {
+					$compressed_data = gzencode( $data );
+					curl_setopt( $curl, CURLOPT_HTTPHEADER, array( &#039;Content-Type: application/json&#039;, &#039;Content-Encoding: gzip&#039; ) );
+					curl_setopt( $curl, CURLOPT_POSTFIELDS, $compressed_data );
+				} else {
+					curl_setopt( $curl, CURLOPT_HTTPHEADER, array( &#039;Content-Type: application/json&#039; ) );
+					curl_setopt( $curl, CURLOPT_POSTFIELDS, $data );
+				}
+
+				curl_multi_add_handle( $curl_multi, $curl );
+			}
+		} elseif ( defined( &#039;PURGE_SERVER_TYPE&#039; ) &amp;&amp; &#039;mangle&#039; === PURGE_SERVER_TYPE ) {
+			foreach ( $requests as $req ) {
+				$data = array(
+					&#039;group&#039; =&gt; &#039;vip-go&#039;,
+					&#039;scope&#039; =&gt; &#039;global&#039;,
+					&#039;type&#039;  =&gt; $req[&#039;method&#039;],
+					&#039;uri&#039;   =&gt; $req[&#039;host&#039;] . $req[&#039;uri&#039;],
+					&#039;cb&#039;    =&gt; &#039;nil&#039;,
+				);
+				$json = json_encode( $data );
+				$curl = curl_init();
+				curl_setopt( $curl, CURLOPT_URL, constant( &#039;PURGE_SERVER_URL&#039; ) );
+				curl_setopt( $curl, CURLOPT_POST, true );
+				curl_setopt( $curl, CURLOPT_POSTFIELDS, $json );
+				curl_setopt( $curl, CURLOPT_HTTPHEADER, array(
+					&#039;Content-Type: application/json&#039;,
+					&#039;Content-Length: &#039; . strlen( $json ),
+				) );
+				curl_setopt( $curl, CURLOPT_TIMEOUT, 5 );
+				curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
+				curl_multi_add_handle( $curl_multi, $curl );
+			}
+		} else {
+			foreach ( $requests as $req ) {
+				// Purge HTTP
+				$curl = curl_init();
+				curl_setopt( $curl, CURLOPT_URL, &quot;http://{$req[&#039;ip&#039;]}{$req[&#039;uri&#039;]}&quot; );
+				curl_setopt( $curl, CURLOPT_PORT, $req[&#039;port&#039;] );
+				curl_setopt( $curl, CURLOPT_HTTPHEADER, array( &quot;Host: {$req[&#039;host&#039;]}&quot;, &#039;X-Forwarded-Proto: http&#039; ) );
+				curl_setopt( $curl, CURLOPT_CUSTOMREQUEST, $req[&#039;method&#039;] );
+				curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
+				curl_setopt( $curl, CURLOPT_NOBODY, true );
+				curl_setopt( $curl, CURLOPT_HEADER, true );
+				curl_setopt( $curl, CURLOPT_TIMEOUT, 5 );
+				curl_multi_add_handle( $curl_multi, $curl );
+				// Purge HTTPS
+				$curl = curl_init();
+				curl_setopt( $curl, CURLOPT_URL, &quot;http://{$req[&#039;ip&#039;]}{$req[&#039;uri&#039;]}&quot; );
+				curl_setopt( $curl, CURLOPT_PORT, $req[&#039;port&#039;] );
+				curl_setopt( $curl, CURLOPT_HTTPHEADER, array( &quot;Host: {$req[&#039;host&#039;]}&quot;, &#039;X-Forwarded-Proto: https&#039; ) );
+				curl_setopt( $curl, CURLOPT_CUSTOMREQUEST, $req[&#039;method&#039;] );
+				curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
+				curl_setopt( $curl, CURLOPT_NOBODY, true );
+				curl_setopt( $curl, CURLOPT_HEADER, true );
+				curl_setopt( $curl, CURLOPT_TIMEOUT, 5 );
+				curl_multi_add_handle( $curl_multi, $curl );
+			}
+		}
+
+		$running = true;
+
+		while ( $running ) {
+			do {
+				$result = curl_multi_exec( $curl_multi, $running );
+			} while ( $result == CURLM_CALL_MULTI_PERFORM );
+
+			if ( $result != CURLM_OK )
+				error_log( &#039;curl_multi_exec() returned something different than CURLM_OK&#039; );
+
+			curl_multi_select( $curl_multi, 0.2 );
+		}
+
+		while ( $completed = curl_multi_info_read( $curl_multi ) ) {
+			$info = curl_getinfo( $completed[&#039;handle&#039;] );
+
+			if ( ! $info[&#039;http_code&#039;] &amp;&amp; curl_error( $completed[&#039;handle&#039;] ) )
+				error_log( &#039;Error on: &#039; . $info[&#039;url&#039;] . &#039; error: &#039; . curl_error( $completed[&#039;handle&#039;] ) );
+
+			if ( &#039;200&#039; != $info[&#039;http_code&#039;] )
+				error_log( &#039;Request to &#039; . $info[&#039;url&#039;] . &#039; returned HTTP code &#039; . $info[&#039;http_code&#039;] );
+
+			curl_multi_remove_handle( $curl_multi, $completed[&#039;handle&#039;] );
+		}
+
+		curl_multi_close( $curl_multi );
+	}
+
+	/**
+	 * Instead of using this method directly, please use the API
+	 * functions provided; see `api.php`.
+	 *
+	 * @access private Please do not use this method directly
+	 * @param string $url A URL to PURGE
+	 * @param string $method
+	 *
+	 * @return array
+	 */
+	public function build_purge_request( $url, $method ) {
+		if ( ! defined( &#039;PURGE_SERVER_TYPE&#039; ) || &#039;varnish&#039; == PURGE_SERVER_TYPE ) {
+			global $varnish_servers;
+		} else {
+			$varnish_servers = array( constant( &#039;PURGE_SERVER_URL&#039; ) );
+		}
+
+		$requests = array();
+
+		if ( empty( $varnish_servers ) )
+			return $requests;
+
+		$parsed = parse_url( $url );
+		if ( empty( $parsed[&#039;host&#039;] ) )
+			return $requests;
+
+		foreach ( $varnish_servers as $server ) {
+			if ( &#039;BAN&#039; == $method ) {
+				$uri = $parsed[&#039;path&#039;] . &#039;?&#039; . $parsed[&#039;query&#039;];
+			} else {
+				$uri = &#039;/&#039;;
+				if ( isset( $parsed[&#039;path&#039;] ) )
+					$uri = $parsed[&#039;path&#039;];
+				if ( isset( $parsed[&#039;query&#039;] ) )
+					$uri .= $parsed[&#039;query&#039;];
+			}
+
+			$request = array(
+				&#039;host&#039;   =&gt; $parsed[&#039;host&#039;],
+				&#039;uri&#039;    =&gt; $uri,
+				&#039;method&#039; =&gt; $method,
+			);
+
+			if ( ! defined( &#039;PURGE_SERVER_TYPE&#039; ) || &#039;varnish&#039; == PURGE_SERVER_TYPE ) {
+				$srv = explode( &#039;:&#039;, $server[0] );
+				$request[&#039;ip&#039;]   = $srv[0];
+				$request[&#039;port&#039;] = $srv[1];
+			}
+
+			$requests[] = $request;
+		}
+
+		return $requests;
+	}
+
+	public function execute_purges() {
+
+		if ( defined( &#039;DOING_AUTOSAVE&#039; ) &amp;&amp; DOING_AUTOSAVE ) {
+			return;
+		}
+
+		$this-&gt;ban_urls = array_unique( $this-&gt;ban_urls );
+		$this-&gt;purge_urls = array_unique( $this-&gt;purge_urls );
+
+		if ( empty( $this-&gt;ban_urls ) &amp;&amp; empty( $this-&gt;purge_urls ) ) {
+			return;
+		}
+
+		if ( defined(&#039;DOING_AUTOSAVE&#039;) &amp;&amp; DOING_AUTOSAVE ) {
+			return;
+		}
+
+		/**
+		 * Before PURGE URLs are assembled for execution.
+		 *
+		 * @param array $this-&gt;purge_urls {
+		 *     An array of URLs to be PURGEd
+		 * }
+		 */
+		do_action( &#039;wpcom_vip_cache_pre_execute_purges&#039;, $this-&gt;purge_urls );
+
+		/**
+		 * Before BAN requests are assembled for execution.
+		 *
+		 * @param array $this-&gt;ban_urls {
+		 *     An array of BAN requests
+		 * }
+		 */
+		do_action( &#039;wpcom_vip_cache_pre_execute_bans&#039;, $this-&gt;ban_urls );
+
+		$num_ban_urls = count( $this-&gt;ban_urls );
+		$num_purge_urls = count( $this-&gt;purge_urls );
+		if ( $num_ban_urls &gt; self::MAX_BAN_URLS ) {
+			trigger_error( sprintf( &#039;vip-cache-manager: Trying to BAN too many URLs (total count %s); limiting count to %d&#039;, number_format( $num_ban_urls ), self::MAX_BAN_URLS ), E_USER_WARNING );
+			array_splice( $this-&gt;ban_urls, self::MAX_BAN_URLS );
+		}
+
+		$max_purge_urls = defined( &#039;PURGE_BATCH_SERVER_URL&#039; ) ? self::MAX_PURGE_BATCH_URLS : self::MAX_PURGE_URLS;
+		if ( $num_purge_urls &gt; $max_purge_urls ) {
+			trigger_error( sprintf( &#039;vip-cache-manager: Trying to PURGE too many URLs (total count %s); limiting count to %d&#039;, number_format( $num_purge_urls ), number_format( $max_purge_urls ) ), E_USER_WARNING );
+			array_splice( $this-&gt;purge_urls, $max_purge_urls );
+		}
+
+		$requests = array();
+		foreach( (array) $this-&gt;ban_urls as $url )
+			$requests = array_merge( $requests, $this-&gt;build_purge_request( $url, &#039;BAN&#039; ) );
+
+		foreach( (array) $this-&gt;purge_urls as $url )
+			$requests = array_merge( $requests, $this-&gt;build_purge_request( $url, &#039;PURGE&#039; ) );
+
+		$this-&gt;ban_urls = $this-&gt;purge_urls = array();
+
+		if ( empty( $requests ) )
+			return;
+
+		return $this-&gt;curl_multi( $requests );
+	}
+
+	public function purge_site_cache( $when = null ) {
+		if ( $this-&gt;site_cache_purged )
+			return;
+
+		$this-&gt;ban_urls[] = untrailingslashit( home_url() ) . &#039;/(?!wp\-content\/uploads\/).*&#039;;
+		$this-&gt;site_cache_purged = true;
+
+		return;
+	}
+
+	public function queue_post_purge( $post_id ) {
+		if ( $this-&gt;site_cache_purged )
+			return false;
+
+		if ( defined( &#039;WP_IMPORTING&#039; ) &amp;&amp; true === WP_IMPORTING ) {
+			return false;
+		}
+
+		$post = get_post( $post_id );
+		if ( empty( $post ) ||
+				&#039;revision&#039; === $post-&gt;post_type ||
+				! in_array( get_post_status( $post_id ), array( &#039;publish&#039;, &#039;inherit&#039;, &#039;trash&#039; ), true ) ) {
+			return false;
+		}
+
+		if ( ! is_post_type_viewable( $post-&gt;post_type ) ) {
+			return;
+		}
+
+		// Skip purge if it is a new attachment
+		if ( &#039;attachment&#039; === $post-&gt;post_type &amp;&amp; $post-&gt;post_date === $post-&gt;post_modified ) {
+			return;
+		}
+
+		$post_purge_urls = array();
+		$post_purge_urls[] = get_permalink( $post_id );
+		$post_purge_urls[] = home_url( &#039;/&#039; );
+
+		// Don&#039;t just purge the attachment page, but also include the file itself
+		if ( &#039;attachment&#039; === $post-&gt;post_type ) {
+			$this-&gt;purge_urls[] = wp_get_attachment_url( $post_id );
+		}
+
+		$taxonomies = get_object_taxonomies( $post, &#039;object&#039; );
+
+		foreach ( $taxonomies as $taxonomy ) {
+			if ( true !== $taxonomy-&gt;public ) {
+				continue;
+			}
+			$taxonomy_name = $taxonomy-&gt;name;
+			$terms = get_the_terms( $post_id, $taxonomy_name );
+			if ( false === $terms ) {
+				continue;
+			}
+			foreach ( $terms as $term ) {
+				$post_purge_urls = array_merge( $post_purge_urls, $this-&gt;get_purge_urls_for_term( $term ) );
+			}
+		}
+
+		// Purge the standard site feeds
+		// @TODO Do we need to PURGE the comment feeds if the post_status is publish?
+		$site_feeds = array(
+			get_bloginfo(&#039;rdf_url&#039;),
+			get_bloginfo(&#039;rss_url&#039;) ,
+			get_bloginfo(&#039;rss2_url&#039;),
+			get_bloginfo(&#039;atom_url&#039;),
+			get_bloginfo(&#039;comments_atom_url&#039;),
+			get_bloginfo(&#039;comments_rss2_url&#039;),
+			get_post_comments_feed_link( $post_id ),
+		);
+		$post_purge_urls = array_merge( $post_purge_urls, $site_feeds );
+
+		/**
+		 * Allows adding URLs to be PURGEd from cache when a given post ID is PURGEd
+		 *
+		 * Developers can hook this filter and check the post being purged in order
+		 * to also purge related URLs, e.g. feeds.
+		 *
+		 * Related category archives, tag archives, generic feeds, etc, are already
+		 * included to be purged (see code above).
+		 *
+		 * PLEASE NOTE: Your site benefits from the performance that our HTTP
+		 * Reverse Proxy Caching provides, and purging URLs from that cache
+		 * should be done cautiously. VIP may push back on use of this filter
+		 * during initial code review and pre-deployment review where we
+		 * see issues.
+		 *
+		 * @deprecated 1.1 Use `wpcom_vip_cache_purge_{post_type}_urls` instead
+		 * @param array $this-&gt;purge_urls {
+		 *     An array of URLs for you to add to
+		 * }
+		 * @param type  $post_id The ID of the post which is the primary reason for the purge
+		 */
+		$post_purge_urls = apply_filters( &#039;wpcom_vip_cache_purge_urls&#039;, $post_purge_urls, $post_id );
+
+		$this-&gt;purge_urls = array_merge( $this-&gt;purge_urls, $post_purge_urls );
+
+		/**
+		 * Allows adding URLs to be PURGEd from cache when a given post ID is PURGEd
+		 *
+		 * Developers can hook this filter and check the post being purged in order
+		 * to also purge related URLs, e.g. feeds.
+		 *
+		 * Related category archives, tag archives, generic feeds, etc, are already
+		 * included to be purged (see code above).
+		 *
+		 * PLEASE NOTE: Your site benefits from the performance that our HTTP
+		 * Reverse Proxy Caching provides, and purging URLs from that cache
+		 * should be done cautiously. VIP may push back on use of this filter
+		 * during initial code review and pre-deployment review where we
+		 * see issues.
+		 *
+		 * @param array $this-&gt;purge_urls {
+		 *     An array of URLs for you to add to
+		 * }
+		 * @param type  $post_id The ID of the post which is the primary reason for the purge
+		 */
+		$this-&gt;purge_urls = apply_filters( &quot;wpcom_vip_cache_purge_{$post-&gt;post_type}_post_urls&quot;, $this-&gt;purge_urls, $post_id );
+
+		$this-&gt;purge_urls = array_unique( $this-&gt;purge_urls );
+
+		return true;
+	}
+
+	/**
+	 * Purge the cache for a terms
+	 *
+	 * @param object|int $term A WP Term object, or a term ID
+	 * @return bool True on success
+	 */
+	public function queue_term_purge( $term ) {
+		$term = get_term( $term );
+		if ( is_wp_error( $term ) ) {
+			return false;
+		}
+		if ( empty( $term ) ) {
+			return false;
+		}
+		$term_ids = array( $term-&gt;term_id );
+		$this-&gt;queue_terms_purges( $term_ids, $term-&gt;taxonomy );
+	}
+
+	/**
+	 * Purge the cache for some terms
+	 *
+	 * Hooks the `clean_term_cache` action
+	 *
+	 * We do not respect requests to clear caches for the entire taxonomy,
+	 * as this would be potentially hundreds or thousands of PURGE requests.
+	 *
+	 * @param array  $ids            An array of term IDs.
+	 * @param string $taxonomy       Taxonomy slug.
+	 * @param bool   $clean_taxonomy Whether or not to clean taxonomy-wide caches
+	 */
+	public function queue_terms_purges( $ids, $taxonomy ) {
+		$taxonomy_object = get_taxonomy( $taxonomy );
+		if ( ! $taxonomy_object ) {
+			return;
+		}
+
+		if ( false === $taxonomy_object-&gt;public
+			&amp;&amp; false === $taxonomy_object-&gt;publicly_queryable
+			&amp;&amp; false === $taxonomy_object-&gt;show_in_rest ) {
+			return;
+		}
+
+		$get_term_args = array(
+			&#039;taxonomy&#039;    =&gt; $taxonomy,
+			&#039;include&#039;     =&gt; $ids,
+			&#039;hide_empty&#039;  =&gt; false,
+		);
+		$terms = get_terms( $get_term_args );
+		if ( is_wp_error( $terms ) ) {
+			return;
+		}
+		$term_purge_urls = array();
+		foreach ( $terms as $term ) {
+			$term_purge_urls = array_merge( $term_purge_urls, $this-&gt;get_purge_urls_for_term( $term ) );
+		}
+
+		$this-&gt;purge_urls = array_merge( $this-&gt;purge_urls, $term_purge_urls );
+		$this-&gt;purge_urls = array_unique( $this-&gt;purge_urls );
+	}
+
+	/**
+	 * Get all URLs to be purged for a given term
+	 *
+	 * @param object $term A WP term object
+	 *
+	 * @return array An array of URLs to be purged
+	 */
+	protected function get_purge_urls_for_term( $term ) {
+		// Belt and braces: get the term object,
+		// in case something sent us a term ID
+		$term = get_term( $term );
+
+		if ( is_wp_error( $term ) || empty( $term ) ) {
+			return array();
+		}
+
+		$term_purge_urls = array();
+
+		/**
+		 * Allows you to customise the URL suffix used to specify a page for
+		 * paged term archives.
+		 *
+		 * Developers should hook this filter to provide a different page
+		 * endpoint if they have custom or translated rewrite rules for
+		 * paging in term archives:
+		 *
+		 * Standard:     example.com/category/news/page/2
+		 * Non-standard: example.com/category/news/p/2
+		 *
+		 * The string should be formatted as for `sprintf`, with a `%d` in place
+		 * of the page number.
+		 *
+		 * @param string sprintf formatted string, including `%d`
+		 * }
+		 */
+		$paging_endpoint = apply_filters( &#039;wpcom_vip_cache_purge_urls_paging_endpoint&#039;, $GLOBALS[&#039;wp_rewrite&#039;]-&gt;pagination_base . &#039;/%d/&#039; );
+
+		/**
+		 * The maximum page to purge from each term archive when a post associated with
+		 * that term is published.
+		 *
+		 * e.g. if the value is 3, the following pagination URLs will be purged for the
+		 * news category archive:
+		 *
+		 * example.com/category/news/
+		 * example.com/category/news/page/2
+		 * example.com/category/news/page/3
+		 *
+		 * @access private Please do not hook this filter at the moment
+		 * @param int The maximum page to purge from each term archive
+		 * }
+		 */
+		$max_pages = apply_filters( &#039;wpcom_vip_cache_purge_urls_max_pages&#039;, 2, $term );
+
+		// Set some limits on max and min values for pages
+		$max_pages = max( 1, min( 5, $max_pages ) );
+
+		$taxonomy_name = $term-&gt;taxonomy;
+		$maybe_purge_url = get_term_link( $term, $taxonomy_name );
+		if ( is_wp_error( $maybe_purge_url ) ) {
+			return array();
+		}
+		if ( $maybe_purge_url &amp;&amp; is_string( $maybe_purge_url ) ) {
+			$term_purge_urls[] = $maybe_purge_url;
+			// Now add the pages for the archive we&#039;re clearing
+			for( $i = 2; $i &lt;= $max_pages; $i++ ) {
+				$maybe_purge_url_page = rtrim( $maybe_purge_url, &#039;/&#039; ) . &#039;/&#039; . ltrim( sprintf( $paging_endpoint, $i ), &#039;/&#039; );
+				$term_purge_urls[] = user_trailingslashit( $maybe_purge_url_page, &#039;paged&#039; );
+			}
+		}
+		$maybe_purge_feed_url = get_term_feed_link( $term-&gt;term_id, $taxonomy_name );
+		if ( false !== $maybe_purge_feed_url ) {
+			$term_purge_urls[] = $maybe_purge_feed_url;
+		}
+
+		/**
+		 * Allows adding URLs to be PURGEd from cache when a given term_id is PURGEd.
+		 *
+		 * This is the taxonomy-agnostic version of the filter.
+		 *
+		 * Developers can hook this filter and check the term being purged in order
+		 * to also purge related URLs, e.g. feeds.
+		 *
+		 * PLEASE NOTE: Your site benefits from the performance that our HTTP
+		 * Reverse Proxy Caching provides, and purging URLs from that cache
+		 * should be done cautiously. VIP may push back on use of this filter
+		 * during initial code review and pre-deployment review where we
+		 * see issues.
+		 *
+		 * @param array $term_purge_urls {
+		 *     An array of URLs for you to add to
+		 * }
+		 * @param int    $term_id The ID of the term
+		 */
+		$term_purge_urls = apply_filters( &#039;wpcom_vip_cache_purge_term_urls&#039;, $term_purge_urls, $term-&gt;term_id );
+
+		/**
+		 * Allows adding URLs to be PURGEd from cache when a given term_id is PURGEd
+		 *
+		 * This is the taxonomy-specific version of the filter.
+		 *
+		 * Developers can hook this filter and check the term being purged in order
+		 * to also purge related URLs, e.g. feeds.
+		 *
+		 * PLEASE NOTE: Your site benefits from the performance that our HTTP
+		 * Reverse Proxy Caching provides, and purging URLs from that cache
+		 * should be done cautiously. VIP may push back on use of this filter
+		 * during initial code review and pre-deployment review where we
+		 * see issues.
+		 *
+		 * @param array $term_purge_urls {
+		 *     An array of URLs for you to add to
+		 * }
+		 * @param int  $term_id The ID of the term which is the primary reason for the purge
+		 */
+		$term_purge_urls = apply_filters( &quot;wpcom_vip_cache_purge_{$taxonomy_name}_term_urls&quot;, $term_purge_urls, $term-&gt;term_id );
+
+		return $term_purge_urls;
+	}
+
+	/**
+	 * PURGE a single URL
+	 *
+	 * @param string $url The specific URL to purge the cache for
+	 *
+	 * @return bool True on success
+	 */
+	public function queue_purge_url( $url ) {
+		$normalized_url = $this-&gt;normalize_purge_url( $url );
+		$is_valid_url = $this-&gt;is_valid_purge_url( $normalized_url );
+
+		if ( false === $is_valid_url ) {
+			trigger_error( sprintf( &#039;vip-cache-manager: Tried to PURGE invalid URL: %s&#039;, $url ), E_USER_WARNING );
+			return false;
+		}
+
+		$this-&gt;purge_urls[] = $normalized_url;
+		return true;
+	}
+
+	/**
+	 * Schedule purge of old permalink in case it was changed during post update
+	 * and only if the post&#039;s status was publish before the update
+	 *
+	 * @param int $post_ID The post ID of update post
+	 * @param WP_Post $post_after The post object as it looks after the update
+	 * @param WP_Post $post_before The post object as it looked before the update
+	 *
+	 * @return void
+	 */
+	public function queue_old_permalink_purge( $post_ID, $post_after, $post_before ) {
+		if ( get_permalink( $post_before ) !== get_permalink( $post_after ) &amp;&amp;
+			 &#039;publish&#039; === $post_before-&gt;post_status
+		) {
+			$this-&gt;queue_purge_url( get_permalink( $post_before ) );
+		}
+	}
+
+	protected function normalize_purge_url( $url ) {
+		$normalized_url = esc_url_raw( $url );
+
+		// Easy way to strip off query params and fragments since we don&#039;t have access to `http_build_url`.
+		$query_index = mb_strpos( $normalized_url, &#039;?&#039; );
+		if ( false !== $query_index ) {
+			$normalized_url = mb_substr( $normalized_url, 0, $query_index );
+		}
+
+		$fragment_index = mb_strpos( $normalized_url, &#039;#&#039; );
+		if ( false !== $fragment_index ) {
+			$normalized_url = mb_substr( $normalized_url, 0, $fragment_index );
+		}
+
+		return $normalized_url;
+	}
+
+	protected function is_valid_purge_url( $url ) {
+		return wp_http_validate_url( $url );
+	}
+
+	private function can_purge_cache() {
+		if ( ! function_exists( &#039;is_proxied_automattician&#039; ) ) {
+			// Local environment; no purging necessary here
+			return false;
+		}
+
+		return is_proxied_automattician();
+	}
+}
+
+WPCOM_VIP_Cache_Manager::instance();
+</code></pre>
+            </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="files/vip-cache-manager-vip-cache-manager.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+</body>
+</html>
