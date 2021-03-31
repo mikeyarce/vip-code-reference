@@ -18,7 +18,6 @@
                 <path>vip-cache-manager</path>
                 <path>cache/class-vary-cache.php</path>
                 <path>vip-helpers</path>
-                <path>debug-bar</path>
                 <path>cron-control</path>
                 <path>drop-ins/object-cache/object-cache.php</path>
                 <path>gutenberg-ramp</path>

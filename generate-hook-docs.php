@@ -43,7 +43,6 @@ class HookDocsGenerator
 
         $files['Cache']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'cache');
         $files['Cron Control']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'cron-control/includes');
-        $files['Debug Bar']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'debug-bar');
         $files['Object Cache']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'drop-ins/object-cache');
         $files['Gutenberg Ramp']       = array_merge(
             self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'gutenberg-ramp'),
@@ -53,8 +52,6 @@ class HookDocsGenerator
         $files['HTTP Concat']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'http-concat');
         $files['ES-WP-Query']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'search/es-wp-query');
         $files['VIP Cache Manager']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'vip-cache-manager');
-
-
 
 
         // $files['Template Functions'] = array( self::SOURCE_PATH . 'includes/wc-template-functions.php', self::SOURCE_PATH . 'includes/wc-template-hooks.php' );
