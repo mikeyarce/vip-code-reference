@@ -1,10 +1,4 @@
 name: GitHub Pages deploy
-on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'VIP-Go Mu Plugins Version'
-        required: true
 jobs:
   build-and-deploy:
     name: Build and deploy
