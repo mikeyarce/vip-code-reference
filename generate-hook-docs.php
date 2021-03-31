@@ -68,7 +68,7 @@ class HookDocsGenerator
         $url = str_replace('vip-go-mu-plugins/', '', $url);
         $url = str_replace(['_', '/'], '-', $url);
         
-        return '../files/' . $url;
+        return '../vip-code-reference/files/' . $url;
     }
 
     /**
