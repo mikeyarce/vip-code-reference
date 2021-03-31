@@ -18,12 +18,12 @@ class HookDocsGenerator
     /**
      * Hooks template path.
      */
-    protected const HOOKS_TEMPLATE_PATH = 'docs/.build/hooks/hooks.html';
+    protected const HOOKS_TEMPLATE_PATH = 'docs/hooks/hooks.html';
 
     /**
      * Search index path.
      */
-    protected const SEARCH_INDEX_PATH = 'docs/.build/js/searchIndex.js';
+    protected const SEARCH_INDEX_PATH = 'docs/js/searchIndex.js';
 
     /**
      * List of files found.
