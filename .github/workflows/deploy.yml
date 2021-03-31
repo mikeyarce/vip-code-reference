@@ -30,7 +30,7 @@ jobs:
       run: composer install --prefer-dist
     - name: Build
       run: |
-        ./deploy.sh --build-only -s ${{ github.event.inputs.version }}
+        ./deploy.sh --build-only
     - name: Deploy to GitHub Pages
       if: success()
       uses: crazy-max/ghaction-github-pages@v2
