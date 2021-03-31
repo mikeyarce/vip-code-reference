@@ -1,4 +1,8 @@
 name: GitHub Pages deploy
+on:
+  push:
+    paths:
+    - 'master'
 jobs:
   build-and-deploy:
     name: Build and deploy
