@@ -52,11 +52,6 @@ class HookDocsGenerator
         );       
         $files['HTTP Concat']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'http-concat');
         $files['Files']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'files');
-        $files['Lightweight Term Count Update']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'lightweight-term-count-update');
-        $files['ElasticPress']       = array_merge(
-            self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'search/elasticpress'),
-            self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'search/elasticpress/includes'),
-        );
         $files['ES-WP-Query']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'search/es-wp-query');
         $files['VIP Cache Manager']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'vip-cache-manager');
 
