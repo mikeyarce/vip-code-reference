@@ -51,7 +51,6 @@ class HookDocsGenerator
             self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'gutenberg-ramp/admin'),
         );       
         $files['HTTP Concat']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'http-concat');
-        $files['Files']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'files');
         $files['ES-WP-Query']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'search/es-wp-query');
         $files['VIP Cache Manager']     = self::getFiles('*.php', GLOB_MARK, self::SOURCE_PATH . 'vip-cache-manager');
 
